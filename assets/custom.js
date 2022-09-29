@@ -1,1 +1,2 @@
-$("button.btn.product-form__cart-submit.btn--secondary-accent").attr("aria-disabled", "true")
+const button = document.querySelector("button.btn.product-form__cart-submit.btn--secondary-accent");
+button.setAttribute("aria-disabled", "true")
