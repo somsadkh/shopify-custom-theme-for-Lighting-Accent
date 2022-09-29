@@ -1,1 +1,1206 @@
-{"current":{"color_text":"#030000","link_color_text":"#000000","menu_color_text":"#050000","color_body_text":"#000306","color_sale_text":"#ff0000","color_button":"#091357","color_button_text":"#fff","color_small_button_text_border":"#3d4246","color_text_field_text":"#000","color_text_field_border":"#949494","color_text_field":"#fff","color_image_overlay_text":"#fff","color_image_overlay":"#3d4246","image_overlay_opacity":32,"color_borders":"#e8e9eb","color_body_bg":"#fff","type_header_font":"geometric_415_n6","type_header_base_size":27,"bold_main_menu":false,"type_base_font":"geometric_415_n4","type_base_size":16,"type_bold_product_titles":false,"share_image":"","share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","favicon":"shopify:\/\/shop_images\/Artboard_1_8a514732-6d58-4628-847d-f8d5a321c88a.png","enable_ajax":true,"checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/Lighting_Accent_Logo.png","checkout_logo_position":"center","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"Helvetica Neue","checkout_body_font":"Helvetica Neue","checkout_accent_color":"#091357","checkout_button_color":"#091357","checkout_error_color":"#e32c2b","footer_link_color":"#e8e9eb","sections":{"header":{"type":"header","settings":{"logo_svg":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 951.18 227.48\"><defs><style>.cls-1{fill:#231f20;}<\/style><\/defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><path class=\"cls-1\" d=\"M12.09,4H0V1.53H43V4H29.38v99.14H61.66l14.53-25.7h2.15l-2.91,28.15H0v-2.45H12.09Z\"><\/path><path class=\"cls-1\" d=\"M115.36,103.12h10.1v2.45H91.34v-2.45h9.49V46.82H91.34V44.37H105l10.4-1.53ZM97.61,19.58c0-4.74,4.29-8.72,9.34-8.72s9.33,4,9.33,8.72S112,28.3,107,28.3,97.61,24.33,97.61,19.58Z\"><\/path><path class=\"cls-1\" d=\"M162.94,42.38a25.79,25.79,0,0,1,17.29,6.73l.92-2c3.37-6.58,6.12-10.86,9.64-10.86h2.75c2.91,0,3.21.31,3.21,2.91v7.34H185.43c-1.07,0-1.37.16-1.83,1.07l-1.69,3.22c4.13,4.43,6.58,9.94,6.58,14.84,0,9.94-10.55,23-25.55,23a25.15,25.15,0,0,1-10.86-2.45c-7,.46-15.15,5.35-15.15,9.18,0,2.29,1.84,3.67,12.09,3.67h23.25c15.31,0,22.65,7,22.8,23.72v.61c0,10.4-11.32,21.88-32,21.88s-30.6-7.81-30.6-15.76c0-4.13,2.6-8.42,14.22-14.69l.92-.46c-9.18-.61-13.62-4.89-13.62-18.05,0-5,7.2-9.49,13.47-11.17V83.38c-6.27-4.74-10.1-11.78-10.1-17.74C137.39,55.39,148.1,42.38,162.94,42.38Zm.16,100.52c18.81,0,29.37-10.25,29.37-19.28,0-5.81-3.06-9.33-13.31-9.33H151.77l-2.9,1.53c-2.45,1.53-3.37,3.21-3.37,6.43v15.6C145.5,140.91,153.46,142.9,163.1,142.9Zm-11.79-93V81.09c0,2,4.9,5.2,11.63,5.2s11.63-3.21,11.63-5.2V49.88c0-1.84-4.9-5.05-11.63-5.05S151.31,48,151.31,49.88Z\"><\/path><path class=\"cls-1\" d=\"M224.6,48.19c9.49-2.44,20-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H241.28v-2.45h9.63V49.88c0-2.76-.91-3.06-3.36-3.06-2.91,0-12.39,1.07-23,4.13v52.17h9.64v2.45H200.88v-2.45h9.18V4h-9.18V1.53h13.31L224.6,0Z\"><\/path><path class=\"cls-1\" d=\"M306.3,105.57c-6.27,0-16.06-3.37-16.06-13.31V46.82H279.37V44.37h10.87V28.46l7.19.76,7.34-2.45v17.6h14.38v2.45H304.77v54.47c0,1.68.31,1.83,1.84,1.83h14.07v2.45Z\"><\/path><path class=\"cls-1\" d=\"M351.28,103.12h10.1v2.45H327.26v-2.45h9.49V46.82h-9.49V44.37h13.62l10.4-1.53ZM333.53,19.58c0-4.74,4.29-8.72,9.34-8.72s9.33,4,9.33,8.72-4.29,8.72-9.33,8.72S333.53,24.33,333.53,19.58Z\"><\/path><path class=\"cls-1\" d=\"M407.28,103.12h9.64V49.88c0-2.76-.92-3.06-3.37-3.06-2.91,0-12.39,1.07-22.95,4.13v52.17h9.64v2.45H366.89v-2.45h9.17V46.82h-9.17V44.37H380.2l10.4-1.53v5.35c9.49-2.44,20.2-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H407.28Z\"><\/path><path class=\"cls-1\" d=\"M477.35,42.38a25.81,25.81,0,0,1,17.29,6.73l.92-2c3.36-6.58,6.12-10.86,9.63-10.86H508c2.91,0,3.21.31,3.21,2.91v7.34H499.84c-1.07,0-1.38.16-1.84,1.07l-1.68,3.22c4.13,4.43,6.58,9.94,6.58,14.84,0,9.94-10.56,23-25.55,23a25.23,25.23,0,0,1-10.87-2.45c-7,.46-15.14,5.35-15.14,9.18,0,2.29,1.83,3.67,12.09,3.67h23.25c15.3,0,22.65,7,22.8,23.72v.61c0,10.4-11.32,21.88-32,21.88-20.5,0-30.6-7.81-30.6-15.76,0-4.13,2.6-8.42,14.23-14.69l.92-.46c-9.18-.61-13.62-4.89-13.62-18.05,0-5,7.19-9.49,13.47-11.17V83.38c-6.28-4.74-10.1-11.78-10.1-17.74C451.8,55.39,462.51,42.38,477.35,42.38Zm.15,100.52c18.82,0,29.38-10.25,29.38-19.28,0-5.81-3.06-9.33-13.31-9.33H466.18l-2.91,1.53c-2.45,1.53-3.36,3.21-3.36,6.43v15.6C459.91,140.91,467.86,142.9,477.5,142.9Zm-11.78-93V81.09c0,2,4.9,5.2,11.63,5.2S489,83.08,489,81.09V49.88c0-1.84-4.9-5.05-11.63-5.05S465.72,48,465.72,49.88Z\"><\/path><path class=\"cls-1\" d=\"M536.86,103.12h3.83l9.79-7.5L582.92,0h2l36.56,103.12h8v2.45H593.17v-2.45H603L592.1,72.83H561l-7.65,23,9.79,7.34h5.2v2.45H536.86Zm54.47-32.74L577.26,29.53h-1.53L562,70.38Z\"><\/path><path class=\"cls-1\" d=\"M675.63,46.36a25.25,25.25,0,0,0-9.33-1.53c-8.87,0-15,3.36-15,6.42V99.6c0,3.06,6.12,6.43,13.46,6.43,7.8,0,17.75-4.74,21.42-18.51l2.3.76c-3.83,15-15.15,20.2-23.72,20.2-15.15,0-30.14-13.31-30.14-33,0-19.28,13.46-33.05,31.67-33.05C681.14,42.38,689,50.64,689,58c0,2.29-.46,2.75-2.91,2.75H675.63Z\"><\/path><path class=\"cls-1\" d=\"M741.42,46.36a25.25,25.25,0,0,0-9.33-1.53c-8.87,0-15,3.36-15,6.42V99.6c0,3.06,6.12,6.43,13.46,6.43,7.8,0,17.75-4.74,21.42-18.51l2.3.76c-3.83,15-15.15,20.2-23.72,20.2-15.15,0-30.14-13.31-30.14-33,0-19.28,13.46-33.05,31.67-33.05,14.84,0,22.64,8.26,22.64,15.61,0,2.29-.45,2.75-2.9,2.75H741.42Z\"><\/path><path class=\"cls-1\" d=\"M766.21,76.19c0-15.14,9.79-33.81,29.53-33.81,16.22,0,26.93,12.24,26.93,24.94,0,2.45-2,2.75-4.14,2.75H782.88V98.84c0,3.52,7,7,14.08,7a24.12,24.12,0,0,0,22.95-17.6l2.45.77c-3.83,13.61-16.22,19.27-25.4,19.27C778.14,108.32,766.21,90,766.21,76.19Zm40.85-8.56v-17c0-2.9-3.37-5.81-11.32-5.81-7,0-12.86,2.91-12.86,5.81v17Z\"><\/path><path class=\"cls-1\" d=\"M871.78,103.12h9.64V49.88c0-2.76-.92-3.06-3.37-3.06-2.91,0-12.39,1.07-22.95,4.13v52.17h9.64v2.45H831.39v-2.45h9.18V46.82h-9.18V44.37H844.7l10.4-1.53v5.35c9.49-2.44,20.2-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H871.78Z\"><\/path><path class=\"cls-1\" d=\"M936.8,105.57c-6.27,0-16.06-3.37-16.06-13.31V46.82H909.87V44.37h10.87V28.46l7.19.76,7.34-2.45v17.6h14.38v2.45H935.27v54.47c0,1.68.31,1.83,1.84,1.83h14.07v2.45Z\"><\/path><path class=\"cls-1\" d=\"M233,181.32h-4v-.8h14.05v.8h-4.45v32.4h10.55l4.75-8.4h.7l-.95,9.2H229v-.8h4Z\"><\/path><path class=\"cls-1\" d=\"M265.89,194.52V213c0,.9.5,1.15,1.5,1.15a13.69,13.69,0,0,0,7.1-2.3V195.32H271v-.8h8.25v19.2h3v.8h-7.75v-1.75a13.79,13.79,0,0,1-7.1,2.25c-2.75,0-6.25-1.75-6.25-5v-14.7h-3v-.8Z\"><\/path><path class=\"cls-1\" d=\"M290.83,214.52h-7.25v-.8h1.2l2.3-1.55,5.25-7.3-5.65-9.55h-2.6v-.8h10.76v.8h-2.76l3.81,6.5h.35l3.5-4.95-1.45-1.55H297v-.8h7.3v.8h-1.2l-2.5,1.55-4.15,5.9,6.4,10.95h2.4v.8H295v-.8h2.6l-4.76-8h-.34l-4.55,6.45,1.69,1.55h1.2Z\"><\/path><path class=\"cls-1\" d=\"M314,194.52V213c0,.9.5,1.15,1.5,1.15a13.72,13.72,0,0,0,7.11-2.3V195.32h-3.51v-.8h8.26v19.2h3v.8h-7.75v-1.75a13.82,13.82,0,0,1-7.11,2.25c-2.75,0-6.25-1.75-6.25-5v-14.7h-3v-.8Z\"><\/path><path class=\"cls-1\" d=\"M344.08,214.52H332.23v-.8h3.1v-18.4h-3.1v-.8h4.45l3.4-.5v2.65c3.35-2.2,4.95-2.4,6.2-2.4a3.61,3.61,0,0,1,3.75,3.45c0,1.5-.09,2-.95,2h-3.4v-4.6c-1.85.25-2.9.8-5.6,2.45v16.15h4Z\"><\/path><path class=\"cls-1\" d=\"M362.18,216.57l-9.3-21.25h-2.1v-.8h9.9v.8h-2.4l5.8,14h.45l4.1-12.8-2.25-1.2h-1.25v-.8h7.16v.8h-1.06l-1.7,1.2-8.65,26.9c-.85,2.65-2.4,3.65-4.6,3.65H356c-.95,0-1-.09-1-.95v-2.9h4.15c.55,0,.95-.1,1.1-.6Z\"><\/path><path class=\"cls-1\" d=\"M381.68,213.72h3.95v-32.4h-3.95v-.8h16.1c9.16,0,14.46,8.4,14.46,17s-5.3,17-14.46,17h-16.1Zm16.1,0c4.55,0,8.16-2.5,8.16-4.4v-23.6c0-1.9-3.61-4.4-8.16-4.4h-6.5v32.4Z\"><\/path><path class=\"cls-1\" d=\"M416.53,204.92c0-4.95,3.2-11,9.65-11A8.44,8.44,0,0,1,435,202c0,.8-.65.9-1.35.9H422v9.4c0,1.15,2.3,2.3,4.6,2.3a7.88,7.88,0,0,0,7.5-5.75l.8.25a8.67,8.67,0,0,1-8.3,6.3C420.43,215.42,416.53,209.42,416.53,204.92Zm13.35-2.8v-5.55c0-.95-1.1-1.9-3.7-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M449.28,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15.05.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2.05.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M464.43,213.72h3.3v.8H456.58v-.8h3.1v-18.4h-3.1v-.8H461l3.4-.5Zm-5.8-27.3a3.06,3.06,0,1,1,3.05,2.85A3,3,0,0,1,458.63,186.42Z\"><\/path><path class=\"cls-1\" d=\"M480,193.87a8.43,8.43,0,0,1,5.65,2.2l.3-.65c1.1-2.15,2-3.55,3.15-3.55h.9c.95,0,1,.1,1,.95v2.4h-3.7c-.35,0-.45.05-.6.35l-.55,1.05a7.46,7.46,0,0,1,2.15,4.85c0,3.25-3.45,7.5-8.35,7.5a8.23,8.23,0,0,1-3.55-.8c-2.3.15-4.95,1.75-4.95,3,0,.75.6,1.2,3.95,1.2H483c5,0,7.4,2.3,7.45,7.75v.2c0,3.4-3.7,7.16-10.45,7.16s-10-2.56-10-5.16c0-1.35.85-2.75,4.65-4.8l.3-.15c-3-.2-4.45-1.6-4.45-5.9,0-1.65,2.35-3.1,4.4-3.65v-.55a7.83,7.83,0,0,1-3.3-5.8C471.63,198.12,475.13,193.87,480,193.87Zm0,32.86c6.15,0,9.6-3.36,9.6-6.31,0-1.9-1-3-4.35-3h-8.95l-.95.5a2.12,2.12,0,0,0-1.1,2.1v5.1C474.28,226.07,476.88,226.73,480,226.73Zm-3.85-30.41v10.2c0,.65,1.6,1.7,3.8,1.7s3.8-1.05,3.8-1.7v-10.2c0-.6-1.6-1.65-3.8-1.65S476.18,195.72,476.18,196.32Z\"><\/path><path class=\"cls-1\" d=\"M505.73,213.72h3.15v-17.4c0-.9-.3-1-1.1-1a33.47,33.47,0,0,0-7.5,1.35v17.05h3.15v.8h-10.9v-.8h3v-18.4h-3v-.8h4.35l3.4-.5v1.75a42.7,42.7,0,0,1,8.1-1.4c2.05,0,5.25,1.25,5.25,4.5v14.85h3v.8h-10.9Z\"><\/path><path class=\"cls-1\" d=\"M529.73,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15,0,.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M561.28,181.77a10,10,0,0,0-5.1-1.3c-3.9,0-6.35,2.65-6.35,3.15,0,.15,0,.25.25.5l15.75,18.55a4.83,4.83,0,0,1,1.2,3.4c0,3.5-3.5,9.25-10.55,9.25a12.79,12.79,0,0,1-6.9-2l-3,1.25H546v-9.7h.65l3.55,7.8a11.45,11.45,0,0,0,6.3,1.9c4.4,0,7.5-3,7.5-4.3a1.94,1.94,0,0,0-.6-1.35l-15.1-17.5a5.3,5.3,0,0,1-1.35-3.55c0-4.15,4.25-8.15,9.25-8.15a11.37,11.37,0,0,1,5.55,1.4l2.65-.65h.6l.2,8.4h-.65Z\"><\/path><path class=\"cls-1\" d=\"M578.73,195.77a42.07,42.07,0,0,1,8.1-1.4c2,0,5.25,1.25,5.25,4.5v14.85h3v.8h-10.9v-.8h3.15v-17.4c0-.9-.3-1-1.1-1a33.47,33.47,0,0,0-7.5,1.35v17.05h3.15v.8H571v-.8h3v-32.4h-3v-.8h4.35l3.4-.5Z\"><\/path><path class=\"cls-1\" d=\"M607.58,193.87c6.15,0,10.15,5.65,10.15,10.8s-4,10.8-10.15,10.8-10.15-5.65-10.15-10.8S601.43,193.87,607.58,193.87Zm-4.7,2.9v15.8c0,.8,2.15,2.1,4.7,2.1s4.7-1.3,4.7-2.1v-15.8c0-.8-2.15-2.1-4.7-2.1S602.88,196,602.88,196.77Z\"><\/path><path class=\"cls-1\" d=\"M631.73,227.07H620.48v-.8h3v-31h-3v-.8h4.35l3.4-.5v1.65a10.84,10.84,0,0,1,5.45-1.6c5.65,0,9.75,4.5,9.75,10.45s-4.1,10.5-9.75,10.5a10.84,10.84,0,0,1-5.45-1.6v12.85h3.5Zm-3.5-30.5v16a10.41,10.41,0,0,0,5.45,1.7c2.35,0,4.3-.9,4.3-1.85V196.72c0-.95-2-1.85-4.3-1.85A10.41,10.41,0,0,0,628.23,196.57Z\"><\/path><path class=\"cls-1\" d=\"M657.43,227.07H646.18v-.8h3v-31h-3v-.8h4.35l3.4-.5v1.65a10.84,10.84,0,0,1,5.45-1.6c5.65,0,9.75,4.5,9.75,10.45S665,215,659.38,215a10.84,10.84,0,0,1-5.45-1.6v12.85h3.5Zm-3.5-30.5v16a10.41,10.41,0,0,0,5.45,1.7c2.35,0,4.3-.9,4.3-1.85V196.72c0-.95-1.95-1.85-4.3-1.85A10.41,10.41,0,0,0,653.93,196.57Z\"><\/path><path class=\"cls-1\" d=\"M673,204.92c0-4.95,3.2-11,9.65-11a8.44,8.44,0,0,1,8.8,8.15c0,.8-.65.9-1.35.9H678.43v9.4c0,1.15,2.3,2.3,4.6,2.3a7.88,7.88,0,0,0,7.5-5.75l.8.25a8.67,8.67,0,0,1-8.3,6.3C676.88,215.42,673,209.42,673,204.92Zm13.35-2.8v-5.55c0-.95-1.1-1.9-3.7-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M710.38,213.42a10.84,10.84,0,0,1-5.45,1.6c-5.7,0-9.76-4.5-9.76-10.5s4.06-10.45,9.76-10.45a10.84,10.84,0,0,1,5.45,1.6V181.32h-3.5v-.8h4.85l3.4-.5v33.7h3v.8h-7.75Zm-5.45.8a10.55,10.55,0,0,0,5.45-1.7v-16a10.55,10.55,0,0,0-5.45-1.7c-1.75,0-4.31.7-4.31,1.9v15.55C700.62,213.52,703.18,214.22,704.93,214.22Z\"><\/path><path class=\"cls-1\" d=\"M728.38,213.72h4v-32.4h-4v-.8h24.75l.35,8.55h-.7l-4.1-7.75H738v15.75h5.75l2.7-5.1h.7l.1,11.1h-.7l-2.8-5.2H738v15.85h11.35l4.7-8.4h.7l-.9,9.2H728.38Z\"><\/path><path class=\"cls-1\" d=\"M762.47,195.32h-3.6v-.8h3.6v-2.25c0-7.5,4.11-12,9.7-12,2.36,0,5.11,1,5.86,2.9a6.92,6.92,0,0,1,5.85-3.4c2.35,0,5.15,1.35,5.15,4,0,.7-.1.8-.95.8h-3.4v-4a4,4,0,0,0-.8,0c-2.15,0-3.35,1.2-3.35,2.35v11.55h4.6v.8h-4.6v18.4h3.85v.8H772.17v-.8h3.61v-18.4h-8.56v18.4h3v.8H758.87v-.8h3.6Zm4.75-.8h8.56v-2.25a18.69,18.69,0,0,1,1.25-7.15h-3.15v-3.8a6.36,6.36,0,0,0-1.71-.2c-3,0-4.95,1.5-4.95,2.9Z\"><\/path><path class=\"cls-1\" d=\"M798.38,193.87c6.15,0,10.15,5.65,10.15,10.8s-4,10.8-10.15,10.8-10.15-5.65-10.15-10.8S792.23,193.87,798.38,193.87Zm-4.7,2.9v15.8c0,.8,2.15,2.1,4.7,2.1s4.7-1.3,4.7-2.1v-15.8c0-.8-2.15-2.1-4.7-2.1S793.68,196,793.68,196.77Z\"><\/path><path class=\"cls-1\" d=\"M823.08,214.52H811.23v-.8h3.1v-18.4h-3.1v-.8h4.45l3.4-.5v2.65c3.35-2.2,4.95-2.4,6.2-2.4a3.61,3.61,0,0,1,3.75,3.45c0,1.5-.1,2-.95,2h-3.4v-4.6c-1.85.25-2.9.8-5.6,2.45v16.15h4Z\"><\/path><path class=\"cls-1\" d=\"M839.18,214.52c-2.06,0-5.26-1.1-5.26-4.35V195.32h-3.54v-.8h3.54v-5.2l2.36.25,2.4-.8v5.75h4.7v.8h-4.7v17.8c0,.55.1.6.6.6h4.6v.8Z\"><\/path><path class=\"cls-1\" d=\"M848.87,181.32h-3.1v-.8h4.45l3.4-.5v33.7h3v.8H845.77v-.8h3.1Z\"><\/path><path class=\"cls-1\" d=\"M859.47,204.92c0-4.95,3.2-11,9.65-11a8.44,8.44,0,0,1,8.8,8.15c0,.8-.64.9-1.34.9H864.92v9.4c0,1.15,2.3,2.3,4.6,2.3a7.89,7.89,0,0,0,7.51-5.75l.8.25a8.68,8.68,0,0,1-8.31,6.3C863.37,215.42,859.47,209.42,859.47,204.92Zm13.36-2.8v-5.55c0-.95-1.11-1.9-3.71-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M892.22,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15,0,.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.31l.19,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M910.82,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15.05.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M921,181.32h-3.1v-.8h4.45l3.4-.5v33.7h3v.8H917.87v-.8H921Z\"><\/path><path class=\"cls-1\" d=\"M940.92,216.57l-9.3-21.25h-2.1v-.8h9.9v.8H937l5.8,14h.45l4.1-12.8-2.25-1.2h-1.25v-.8H951v.8h-1l-1.7,1.2-8.65,26.9c-.85,2.65-2.4,3.65-4.6,3.65h-.25c-.95,0-1-.09-1-.95v-2.9h4.15c.55,0,1-.1,1.1-.6Z\"><\/path><\/g><\/g><\/svg>","logo":"shopify:\/\/shop_images\/Logo_with_Tagline.png","logo_max_width":350,"contact_text":"(888) 406-6668","phone_text":"Call us!","hours_text":"Everyday 10am -10pm ET","main_linklist":"main-menu","message":false,"home_page_only":false,"message_text":"Free Shipping. Always.","message_link":"https:\/\/lightingaccent.com\/","color_bg":"#091357","color_text":"#ffffff"}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{"title":"Meet Lighting Accent","menu":"meet-lighting-accent"}},"1566317717526":{"type":"link_list","settings":{"title":"Customer Service","menu":"footer"}},"c05e6e07-07a9-4880-bc1e-e491101b999f":{"type":"link_list","settings":{"title":"Shop More","menu":"shop-more"}},"24df09af-17a3-4b2c-bd3e-7f4762442364":{"type":"text","settings":{"title":"Contact us","text":"<p><a href=\"tel:(888) 406-6668\" title=\"tel:(888) 406-6668\">(888) 406-6668<\/a><\/p><p>hello<a href=\"mailto:care@lightingaccent.com\" title=\"mailto:care@lightingaccent.com\">@lightingaccent.com<\/a><\/p><p>Everyday 10am-10pm ET <\/p><p>6075 Barfield Rd<br\/>Sandy Springs, GA, USA 30328<\/p>","footer_page_max_width":"75"}}},"block_order":["link_list","1566317717526","c05e6e07-07a9-4880-bc1e-e491101b999f","24df09af-17a3-4b2c-bd3e-7f4762442364"],"settings":{"show_payment_icons":true,"color_footer_bg":"#091357","color_footer_text":"#ffffff"}},"cart-template":{"type":"cart-template","settings":{"cart_ajax_enable":true,"cart_notes_enable":false}},"1566322970694":{"type":"collection-list","disabled":true,"blocks":{"1566322970694-0":{"type":"featured_collection","settings":{"collection":"chandeliers"}},"1566322970694-1":{"type":"featured_collection","settings":{"collection":"pendant"}},"cc099549-0daa-4d49-8ac8-91f2cfc78281":{"type":"featured_collection","settings":{"collection":"flush-mount"}},"7fd2d117-593e-42d6-a5a7-31d8e56ba69e":{"type":"featured_collection","settings":{"collection":"wall-lights-1"}},"28e02d6a-5eaf-476c-8e70-7ec1178e2ed9":{"type":"featured_collection","settings":{"collection":"table-floor-lamps"}},"e5496ac0-54e4-42a2-a93f-eff9292cf528":{"type":"featured_collection","settings":{"collection":"chandel-air"}}},"block_order":["1566322970694-0","1566322970694-1","cc099549-0daa-4d49-8ac8-91f2cfc78281","7fd2d117-593e-42d6-a5a7-31d8e56ba69e","28e02d6a-5eaf-476c-8e70-7ec1178e2ed9","e5496ac0-54e4-42a2-a93f-eff9292cf528"],"settings":{"title":"Shop by Categories","grid":3}},"1566323001256":{"type":"newsletter","settings":{"section_title":"GET 10% OFF YOUR FIRST PURCHASE!","subheading":"","show_background":false}},"product-template":{"type":"product-template","blocks":{"5584e1c7-12a7-401e-b55a-de479ffb840c":{"type":"gurantee_badges","settings":{"img_badge":"shopify:\/\/shop_images\/Asset_4_4x_8429e749-ca07-4b07-a41b-813a3fa4d42f.png"}},"04813e7d-b964-42b5-a5cc-d314fcca9f73":{"type":"gurantee_badges","settings":{"img_badge":"shopify:\/\/shop_images\/Asset_3_4x_d9ef7fb6-5470-41e4-b232-6d535bb15885.png"}},"84cf388b-1796-44ab-8809-232689ed0063":{"type":"gurantee_badges","settings":{"img_badge":"shopify:\/\/shop_images\/Asset_2_4x_adda9dcd-5562-452c-979e-0eddc9d6226f.png"}},"6a6f7c69-b8b6-4b96-8444-377da46002ae":{"type":"gurantee_badges","settings":{"img_badge":"shopify:\/\/shop_images\/Asset_1_4x_614e0086-0f63-4213-836b-08f173e80311.png"}}},"block_order":["5584e1c7-12a7-401e-b55a-de479ffb840c","04813e7d-b964-42b5-a5cc-d314fcca9f73","84cf388b-1796-44ab-8809-232689ed0063","6a6f7c69-b8b6-4b96-8444-377da46002ae"],"settings":{"image_size":"medium","show_quantity_selector":true,"show_variant_labels":true,"show_vendor":true,"enable_zoom":true,"enable_payment_button":true,"show_share_buttons":false,"expiring_coupon_text":"","expiring_day":"2","show_eta":false,"early_delivery":"3","late_delivery":"5","country_eta":"*ETA to USA Only","shipping_text":"","product_page_max_width":"100","product_reviews_enable":true,"shipping_txt":"FREE SHIPPING","gurantee_title":"Guaranteed Safe Checkout","img_norton":"shopify:\/\/shop_images\/new-norton-seal1.png"}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":false,"heading":"You may also like","show_vendor":false}},"collection-template":{"type":"collection-template","blocks":{"1566330921963":{"type":"tag-list","settings":{"title":"Collections","tags":"Balance Light"}},"1566331128738":{"type":"vendors","settings":{"title":"Brands"}},"9aa6dd95-ba87-4330-bd68-7726f710e3ea":{"type":"menu","settings":{"menu":""}}},"block_order":["1566330921963","1566331128738","9aa6dd95-ba87-4330-bd68-7726f710e3ea"],"settings":{"layout":"grid","grid":3,"rows":23,"show_collection_image":false,"show_vendor":true,"sort_enable":true,"tags_enable":false,"show_sidebar":true}},"recently-viewed-products":{"type":"recently-viewed-products","settings":{"show_recently_viewed_products":false,"title":"Recently Viewed Products"}},"1620693651b611cdc4":{"type":"collection-list","disabled":true,"blocks":{"1620693651b611cdc4-0":{"type":"featured_collection","settings":{"collection":"modern-contemporary"}},"ff36b1f8-e49c-42da-a743-14835f8ea3ae":{"type":"featured_collection","settings":{"collection":"craftsman-mission"}},"76b231ff-80b0-4b87-b67a-2e3895150067":{"type":"featured_collection","settings":{"collection":"tiffany"}},"1620693651b611cdc4-2":{"type":"featured_collection","settings":{"collection":"transitional"}},"1620693651b611cdc4-1":{"type":"featured_collection","settings":{"collection":"rustic-farmhouse"}},"1fc8154e-d5b1-49e5-8088-ab14617761bc":{"type":"featured_collection","settings":{"collection":"classic"}}},"block_order":["1620693651b611cdc4-0","ff36b1f8-e49c-42da-a743-14835f8ea3ae","76b231ff-80b0-4b87-b67a-2e3895150067","1620693651b611cdc4-2","1620693651b611cdc4-1","1fc8154e-d5b1-49e5-8088-ab14617761bc"],"settings":{"title":"Shop by Style","grid":3}},"16207017730629b8bd":{"type":"collection-list","disabled":true,"blocks":{"16207017730629b8bd-2":{"type":"featured_collection","settings":{"collection":"bronze"}},"16207017730629b8bd-1":{"type":"featured_collection","settings":{"collection":"black"}},"0629ae52-4e85-4288-ace8-fed42dbd56fb":{"type":"featured_collection","disabled":true,"settings":{"collection":"nickel"}},"16207017730629b8bd-0":{"type":"featured_collection","settings":{"collection":"copper"}},"389f1c51-13c6-495b-9c52-38c045ccbae6":{"type":"featured_collection","settings":{"collection":"glass"}},"588f178e-3281-4dae-ab7e-8c261cf699ba":{"type":"featured_collection","settings":{"collection":"brown"}},"f8cd5d2d-9be4-4591-a66d-a55e8cc56ea3":{"type":"featured_collection","settings":{"collection":""}}},"block_order":["16207017730629b8bd-2","16207017730629b8bd-1","0629ae52-4e85-4288-ace8-fed42dbd56fb","16207017730629b8bd-0","389f1c51-13c6-495b-9c52-38c045ccbae6","588f178e-3281-4dae-ab7e-8c261cf699ba","f8cd5d2d-9be4-4591-a66d-a55e8cc56ea3"],"settings":{"title":"Shop by Finish","grid":3}},"list-collections-template":{"type":"list-collections-template","settings":{"display_type":"all","sort":"alphabetical","grid":3}},"1630435785949ce0c8":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/LK-130L5PA2.png","img_link":"shopify:\/\/collections\/exclusive-brands","layout":"left","title":"Exclusive Designs Only Available Here","text":"<p><br\/>Discover our stunning collection of exclusive styles you won't find anywhere else.<\/p><p><br\/><\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/exclusive-brands"}},"16304489401171d8f7":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/LPAS-305-01-2Z.jpg","img_link":"shopify:\/\/collections\/all-about-table-lamps","layout":"right","title":"All about Bedroom","text":"<p><br\/><\/p><p>Our editors' picks from all our favorite brands. Find that perfect finishing touch to create your favorite room. <\/p><p><br\/><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/all-about-table-lamps"}},"1630451735ca4628bf":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/27580145_947653322077392_8912034328628690944_n.jpg","img_link":"shopify:\/\/collections\/pendant","layout":"left","title":"Limited Sale: 15% Off ALL BRANDS!","text":"<p><\/p><p><\/p><p>Check out with Coupon Code AUTUMN<br\/><br\/><\/p>","button_label":"Shop Pendants","button_link":"shopify:\/\/collections\/pendant"}},"16304588797c539b18":{"type":"feature-columns","disabled":true,"blocks":{"16304588797c539b18-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/163867_1024x1024_2x_693c358c-3ac5-4ce7-91c5-194899cfd04c.jpg","img_link":"","title":"","text":"","button_label":"Copper","button_link":"shopify:\/\/collections\/copper"}},"16304588797c539b18-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/16.png","img_link":"","title":"","text":"","button_label":"Glass","button_link":"shopify:\/\/collections\/glass"}},"16304588797c539b18-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/45605X10-1_1024x1024_2x_4d20d0a7-0132-4f3d-afbc-087e38aeeb66_720x_1.jpg","img_link":"","title":"","text":"","button_label":"Bronze","button_link":"shopify:\/\/collections\/bronze"}}},"block_order":["16304588797c539b18-0","16304588797c539b18-1","16304588797c539b18-2"],"settings":{"title":"Shop by Finish","align_text":"center"}},"1630459683e5e4d275":{"type":"feature-columns","blocks":{"1630459683e5e4d275-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/220811_1024x1024_2x_e3a07be7-e998-405e-a9ed-2742492a5600.jpg","img_link":"shopify:\/\/collections\/modern-contemporary","title":"","text":"","button_label":"Modern & Contemporary","button_link":"shopify:\/\/collections\/modern-contemporary"}},"1630459683e5e4d275-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Untitled_design_8_720x_1.png","img_link":"shopify:\/\/collections\/transitional","title":"","text":"","button_label":"Transitional","button_link":"shopify:\/\/collections\/transitional"}},"1630459683e5e4d275-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Chandelier_-_Traditional_720x_1.png","img_link":"shopify:\/\/collections\/classic","title":"","text":"","button_label":"Traditional","button_link":"shopify:\/\/collections\/classic"}}},"block_order":["1630459683e5e4d275-0","1630459683e5e4d275-2","1630459683e5e4d275-1"],"settings":{"title":"Shop by style","align_text":"center"}},"1630460244f4a90adc":{"type":"feature-columns","blocks":{"1630460244f4a90adc-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/8.png","img_link":"shopify:\/\/collections\/rustic-farmhouse","title":"","text":"","button_label":"Rustic & Farmhouse","button_link":"shopify:\/\/collections\/rustic-farmhouse"}},"1630460244f4a90adc-2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/232772X10-4_1024x1024_2x_d89749bf-49a4-4ba3-8faf-a030a26b84fa.jpg","img_link":"shopify:\/\/collections\/tiffany","title":"","text":"","button_label":"Tiffany","button_link":"shopify:\/\/collections\/tiffany"}},"1630460244f4a90adc-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/7.png","img_link":"shopify:\/\/collections\/craftsman-mission","title":"","text":"","button_label":"Craftsman & Mission","button_link":"shopify:\/\/collections\/craftsman-mission"}}},"block_order":["1630460244f4a90adc-0","1630460244f4a90adc-2","1630460244f4a90adc-1"],"settings":{"title":"","align_text":"center"}},"1630461866d3704d22":{"type":"feature-columns","disabled":true,"blocks":{"0d8dfe81-10fe-4252-97c9-4e836c850f5d":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Semi_Flush_Mount_-_Statement.png","img_link":"shopify:\/\/collections\/flush-mount","title":"","text":"","button_label":"Shop Flush Mounts","button_link":"shopify:\/\/collections\/flush-mount"}},"d996a519-f1bb-486b-8b8c-aa0905752212":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Chandelier_Shaded_ac906c5b-2af6-4a48-9fd8-956e5b2caae8.jpg","img_link":"shopify:\/\/collections\/chandeliers","title":"","text":"","button_label":"Shop Chandeliers","button_link":"shopify:\/\/collections\/chandeliers"}},"4281f42c-7643-44d0-83de-5e87f5df0c5c":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/3d27bbe1a658cc3d51cb84541d24514f.png","img_link":"shopify:\/\/collections\/chandel-air","title":"","text":"","button_label":"Shop Ceiling Fans","button_link":"shopify:\/\/collections\/chandel-air"}},"ed1747ea-eacf-4f7a-b7e2-72d5fa635f11":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/69477341_492437508243645_4298761935188909062_n.jpg","img_link":"shopify:\/\/collections\/wall-lights-1","title":"","text":"","button_label":"Shop Wall Lights","button_link":"shopify:\/\/collections\/wall-lights-1"}},"1630461866d3704d22-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/LPAS-366-01-1Z.jpg","img_link":"shopify:\/\/collections\/table-floor-lamps","title":"","text":"","button_label":"Shop Table & Floor Lamps","button_link":"shopify:\/\/collections\/table-floor-lamps"}},"710d8cf6-ce41-4b61-acb6-84b09c385e49":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/196165769_942775559909622_8084513030643675834_n.jpg","img_link":"shopify:\/\/collections\/pendant","title":"","text":"","button_label":"Shop Pendants","button_link":"shopify:\/\/collections\/pendant"}}},"block_order":["0d8dfe81-10fe-4252-97c9-4e836c850f5d","d996a519-f1bb-486b-8b8c-aa0905752212","4281f42c-7643-44d0-83de-5e87f5df0c5c","ed1747ea-eacf-4f7a-b7e2-72d5fa635f11","1630461866d3704d22-1","710d8cf6-ce41-4b61-acb6-84b09c385e49"],"settings":{"title":"Shop by Categories","align_text":"center"}},"163046224585f07b62":{"type":"image-bar","blocks":{"163046224585f07b62-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2018.06_Bone_China_Colour1.jpg","alignment":"bottom","link":"shopify:\/\/collections\/meyda-lighting","cta_label":"Our Favorite Brand  Meyda Lighting"}},"163046224585f07b62-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2018.06_Metalworks_Colour.jpg","alignment":"center","link":"shopify:\/\/collections\/meyda-lighting","cta_label":"Handcrafted in the U.S."}},"5d33613e-366e-4c12-a573-6aa7b0a7fbfd":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Bone_China_Molds_2.2.jpg","alignment":"center","link":"shopify:\/\/collections\/meyda-lighting","cta_label":"Handcrafted"}},"163046224585f07b62-0":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/2018.06_Glass_Globe_Colour2.jpg","alignment":"center","link":"shopify:\/\/collections\/meyda-lighting","cta_label":"in the U.S."}}},"block_order":["163046224585f07b62-2","163046224585f07b62-1","5d33613e-366e-4c12-a573-6aa7b0a7fbfd","163046224585f07b62-0"],"settings":{"section_height":"medium"}},"163918784440344eb1":{"type":"feature-row","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/LPAS-289-01-2Z_a33c77bf-b761-4af9-b366-17bd59a5f3f9.jpg","img_link":"https:\/\/lightingaccent.com\/collections\/port-68?pf_t_type=Table+Lamps","layout":"right","title":"EVERYTHING IS ON SALE","text":"<p>  Our Biggest Sale Ever.<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>","button_label":"Shop Now","button_link":""}},"163959315122cb5630":{"type":"feature-row","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/GSH-003_9_05bdb951-7765-4e56-b744-776b1f05f41f.jpg","img_link":"shopify:\/\/collections\/in-stock-ready-to-ship-1","layout":"left","title":"In Stock & Ready to Ship","text":"<p>Ready to go. Grab them before it's gone. <\/p>","button_label":"Shop Now","button_link":"shopify:\/\/collections\/in-stock-ready-to-ship-1"}},"163959331835dfb0d4":{"type":"feature-row","settings":{"image":"shopify:\/\/shop_images\/LPAS-289-01-2Z_a33c77bf-b761-4af9-b366-17bd59a5f3f9.jpg","img_link":"shopify:\/\/collections\/table-floor-lamps-1","layout":"right","title":"Check Out Trendy Lamps","text":"<p><\/p><p><\/p><p>Explore top-trending styles from all our favorite brands. Find that perfect finishing touch for every room of the house, inside and out.<br\/><\/p>","button_label":"Shop Lamps","button_link":"shopify:\/\/collections\/table-floor-lamps"}},"16433316116d0bf05d":{"type":"custom-content","blocks":{"69ac4fa2-598d-49d3-93aa-3e69aebfef0b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/GSH-003_9.jpg","image_link":"shopify:\/\/collections\/in-stock-ready-to-ship-1","width":"100%","alignment":"center"}}},"block_order":["69ac4fa2-598d-49d3-93aa-3e69aebfef0b"],"settings":{"title":"In Stock & Ready to Ship"}},"164347987857fdb096":{"type":"collection","settings":{"title":"Shop Eurofase | Innovative and Contemporary Design","collection":"eurofase","grid":3,"rows":3,"show_vendor":false,"show_view_all":true}},"16550699268694dd55":{"type":"collection","settings":{"title":"Shop Our Featured Brand Port 68  | eclectic mix of antiques and collectibles STYLE","collection":"port-68","grid":3,"rows":4,"show_vendor":false,"show_view_all":true}},"165507002423d050ff":{"type":"collection","disabled":true,"settings":{"title":"12% Off on All Meyda Lighting | Check out with CODE MEYDA12","collection":"meyda-lighting","grid":3,"rows":2,"show_vendor":false,"show_view_all":false}}},"content_for_index":["163959315122cb5630","1630451735ca4628bf","163959331835dfb0d4","163918784440344eb1","1630435785949ce0c8","16304489401171d8f7","1630461866d3704d22","1620693651b611cdc4","163046224585f07b62","165507002423d050ff","16550699268694dd55","164347987857fdb096","16433316116d0bf05d","1630459683e5e4d275","1630460244f4a90adc","1566322970694","1566323001256","16207017730629b8bd","16304588797c539b18"],"blocks":{"9901917232353999808":{"type":"shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f","disabled":false,"settings":{}}}},"presets":{"Default":{"color_text":"#3d4246","color_body_text":"#69727b","color_sale_text":"#557B97","color_borders":"#e8e9eb","color_button":"#557B97","color_button_text":"#fff","color_small_button_text_border":"#3d4246","color_text_field":"#fff","color_text_field_text":"#000","color_text_field_border":"#949494","color_image_overlay_text":"#fff","color_image_overlay":"#3d4246","image_overlay_opacity":40,"color_body_bg":"#fff","type_header_font":"work_sans_n6","type_header_base_size":26,"type_base_font":"work_sans_n4","type_base_size":16,"type_bold_product_titles":false,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"sections":{"header":{"type":"header","settings":{}},"hero":{"type":"hero","settings":{"text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{}},"slideshow-1":{"type":"image","settings":{}}},"block_order":["slideshow-0","slideshow-1"],"settings":{}},"featured-collections":{"type":"collection","settings":{"collection":"frontpage"}},"feature-row":{"type":"feature-row","settings":{}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{}}},"content_for_index":["hero","featured-collections","feature-row","slideshow"]},"Light":{"color_text":"#162950","color_body_text":"#6d6d6d","color_sale_text":"#DA2F0C","color_borders":"#e4e4e4","color_button":"#DA2F0C","color_button_text":"#ffffff","color_small_button_text_border":"#162950","color_text_field":"#ffffff","color_text_field_text":"#162950","color_text_field_border":"#909090","color_image_overlay_text":"#ffffff","color_image_overlay":"#3d3d3d","image_overlay_opacity":40,"color_body_bg":"#f8f8f8","type_header_font":"muli_n6","type_header_base_size":26,"type_base_font":"muli_n4","type_base_size":18,"type_bold_product_titles":true,"share_facebook":true,"share_twitter":true,"share_pinterest":true,"social_twitter_link":"","social_facebook_link":"","social_pinterest_link":"","social_instagram_link":"","social_tumblr_link":"","social_snapchat_link":"","social_youtube_link":"","social_vimeo_link":"","favicon":"","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"small","checkout_body_background_image":"","checkout_body_background_color":"#ffffff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#e8f3f6","checkout_heading_font":"Roboto","checkout_body_font":"Source Sans Pro","checkout_accent_color":"#1990c6","checkout_button_color":"#23314e","checkout_error_color":"#ff6d6d","sections":{"header":{"type":"header","settings":{"logo":"","logo_max_width":135,"main_linklist":"main-menu","message":true,"color_bg":"#162950","color_text":"#ffffff"}},"hero":{"type":"hero","settings":{"alignment":"center","hero_size":"x-large","text_size":"large"}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"image":"","alignment":"center center"}},"1492095993817":{"type":"image","settings":{"image":"","alignment":"center"}}},"block_order":["slideshow-0","1492095993817"],"settings":{"slideshow_height":"medium","text_size":"medium","autorotate":false,"autorotate_speed":5}},"featured-collections":{"type":"collection","settings":{"grid":3,"rows":1,"show_vendor":true,"show_view_all":true}},"product-template":{"type":"product-template","settings":{"image_size":"medium","show_quantity_selector":false,"show_variant_labels":true,"show_vendor":false,"enable_zoom":true,"show_share_buttons":true}},"collection-template":{"type":"collection-template","settings":{"layout":"grid","grid":2,"rows":2,"show_collection_image":true,"show_vendor":false,"sort_enable":true,"tags_enable":true}},"1492033877875":{"type":"quotes","blocks":{"1492033877875-0":{"type":"quote","settings":{}}},"block_order":["1492033877875-0"],"settings":{}},"1492033924902":{"type":"custom-content","blocks":{"1492033924902-0":{"type":"text","settings":{"width":"100%","alignment":"center","align_text":"center"}}},"block_order":["1492033924902-0"],"settings":{"title":""}},"1492096252560":{"type":"collection-list","blocks":{"1492096252560-0":{"type":"featured_collection","settings":{}},"1492096252560-1":{"type":"featured_collection","settings":{}},"1492096252560-2":{"type":"featured_collection","settings":{}}},"block_order":["1492096252560-0","1492096252560-1","1492096252560-2"],"settings":{"grid":3}},"blog-template":{"type":"blog-template","settings":{"layout":"grid","blog_show_author":true,"blog_show_date":false}},"article-template":{"type":"article-template","settings":{"blog_show_author":true,"blog_show_date":true,"show_share_buttons":true}},"cart-template":{"type":"cart-template","settings":{"cart_notes_enable":false}},"footer":{"type":"footer","blocks":{"link_list":{"type":"link_list","settings":{}},"text":{"type":"text","settings":{}},"newsletter":{"type":"newsletter","settings":{}}},"block_order":["link_list","text","newsletter"],"settings":{}}},"content_for_index":["hero","featured-collections","slideshow","1492033924902","1492096252560","1492033877875"]}}}
+{
+  "current": {
+    "color_text": "#030000",
+    "link_color_text": "#000000",
+    "menu_color_text": "#050000",
+    "color_body_text": "#000306",
+    "color_sale_text": "#ff0000",
+    "color_button": "#091357",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#3d4246",
+    "color_text_field_text": "#000",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": 32,
+    "color_borders": "#e8e9eb",
+    "color_body_bg": "#fff",
+    "type_header_font": "geometric_415_n6",
+    "type_header_base_size": 27,
+    "bold_main_menu": false,
+    "type_base_font": "geometric_415_n4",
+    "type_base_size": 16,
+    "type_bold_product_titles": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/Artboard_1_8a514732-6d58-4628-847d-f8d5a321c88a.png",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Lighting_Accent_Logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#091357",
+    "checkout_button_color": "#091357",
+    "checkout_error_color": "#e32c2b",
+    "footer_link_color": "#e8e9eb",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo_svg": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 951.18 227.48\"><defs><style>.cls-1{fill:#231f20;}<\/style><\/defs><g id=\"Layer_2\" data-name=\"Layer 2\"><g id=\"Layer_1-2\" data-name=\"Layer 1\"><path class=\"cls-1\" d=\"M12.09,4H0V1.53H43V4H29.38v99.14H61.66l14.53-25.7h2.15l-2.91,28.15H0v-2.45H12.09Z\"><\/path><path class=\"cls-1\" d=\"M115.36,103.12h10.1v2.45H91.34v-2.45h9.49V46.82H91.34V44.37H105l10.4-1.53ZM97.61,19.58c0-4.74,4.29-8.72,9.34-8.72s9.33,4,9.33,8.72S112,28.3,107,28.3,97.61,24.33,97.61,19.58Z\"><\/path><path class=\"cls-1\" d=\"M162.94,42.38a25.79,25.79,0,0,1,17.29,6.73l.92-2c3.37-6.58,6.12-10.86,9.64-10.86h2.75c2.91,0,3.21.31,3.21,2.91v7.34H185.43c-1.07,0-1.37.16-1.83,1.07l-1.69,3.22c4.13,4.43,6.58,9.94,6.58,14.84,0,9.94-10.55,23-25.55,23a25.15,25.15,0,0,1-10.86-2.45c-7,.46-15.15,5.35-15.15,9.18,0,2.29,1.84,3.67,12.09,3.67h23.25c15.31,0,22.65,7,22.8,23.72v.61c0,10.4-11.32,21.88-32,21.88s-30.6-7.81-30.6-15.76c0-4.13,2.6-8.42,14.22-14.69l.92-.46c-9.18-.61-13.62-4.89-13.62-18.05,0-5,7.2-9.49,13.47-11.17V83.38c-6.27-4.74-10.1-11.78-10.1-17.74C137.39,55.39,148.1,42.38,162.94,42.38Zm.16,100.52c18.81,0,29.37-10.25,29.37-19.28,0-5.81-3.06-9.33-13.31-9.33H151.77l-2.9,1.53c-2.45,1.53-3.37,3.21-3.37,6.43v15.6C145.5,140.91,153.46,142.9,163.1,142.9Zm-11.79-93V81.09c0,2,4.9,5.2,11.63,5.2s11.63-3.21,11.63-5.2V49.88c0-1.84-4.9-5.05-11.63-5.05S151.31,48,151.31,49.88Z\"><\/path><path class=\"cls-1\" d=\"M224.6,48.19c9.49-2.44,20-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H241.28v-2.45h9.63V49.88c0-2.76-.91-3.06-3.36-3.06-2.91,0-12.39,1.07-23,4.13v52.17h9.64v2.45H200.88v-2.45h9.18V4h-9.18V1.53h13.31L224.6,0Z\"><\/path><path class=\"cls-1\" d=\"M306.3,105.57c-6.27,0-16.06-3.37-16.06-13.31V46.82H279.37V44.37h10.87V28.46l7.19.76,7.34-2.45v17.6h14.38v2.45H304.77v54.47c0,1.68.31,1.83,1.84,1.83h14.07v2.45Z\"><\/path><path class=\"cls-1\" d=\"M351.28,103.12h10.1v2.45H327.26v-2.45h9.49V46.82h-9.49V44.37h13.62l10.4-1.53ZM333.53,19.58c0-4.74,4.29-8.72,9.34-8.72s9.33,4,9.33,8.72-4.29,8.72-9.33,8.72S333.53,24.33,333.53,19.58Z\"><\/path><path class=\"cls-1\" d=\"M407.28,103.12h9.64V49.88c0-2.76-.92-3.06-3.37-3.06-2.91,0-12.39,1.07-22.95,4.13v52.17h9.64v2.45H366.89v-2.45h9.17V46.82h-9.17V44.37H380.2l10.4-1.53v5.35c9.49-2.44,20.2-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H407.28Z\"><\/path><path class=\"cls-1\" d=\"M477.35,42.38a25.81,25.81,0,0,1,17.29,6.73l.92-2c3.36-6.58,6.12-10.86,9.63-10.86H508c2.91,0,3.21.31,3.21,2.91v7.34H499.84c-1.07,0-1.38.16-1.84,1.07l-1.68,3.22c4.13,4.43,6.58,9.94,6.58,14.84,0,9.94-10.56,23-25.55,23a25.23,25.23,0,0,1-10.87-2.45c-7,.46-15.14,5.35-15.14,9.18,0,2.29,1.83,3.67,12.09,3.67h23.25c15.3,0,22.65,7,22.8,23.72v.61c0,10.4-11.32,21.88-32,21.88-20.5,0-30.6-7.81-30.6-15.76,0-4.13,2.6-8.42,14.23-14.69l.92-.46c-9.18-.61-13.62-4.89-13.62-18.05,0-5,7.19-9.49,13.47-11.17V83.38c-6.28-4.74-10.1-11.78-10.1-17.74C451.8,55.39,462.51,42.38,477.35,42.38Zm.15,100.52c18.82,0,29.38-10.25,29.38-19.28,0-5.81-3.06-9.33-13.31-9.33H466.18l-2.91,1.53c-2.45,1.53-3.36,3.21-3.36,6.43v15.6C459.91,140.91,467.86,142.9,477.5,142.9Zm-11.78-93V81.09c0,2,4.9,5.2,11.63,5.2S489,83.08,489,81.09V49.88c0-1.84-4.9-5.05-11.63-5.05S465.72,48,465.72,49.88Z\"><\/path><path class=\"cls-1\" d=\"M536.86,103.12h3.83l9.79-7.5L582.92,0h2l36.56,103.12h8v2.45H593.17v-2.45H603L592.1,72.83H561l-7.65,23,9.79,7.34h5.2v2.45H536.86Zm54.47-32.74L577.26,29.53h-1.53L562,70.38Z\"><\/path><path class=\"cls-1\" d=\"M675.63,46.36a25.25,25.25,0,0,0-9.33-1.53c-8.87,0-15,3.36-15,6.42V99.6c0,3.06,6.12,6.43,13.46,6.43,7.8,0,17.75-4.74,21.42-18.51l2.3.76c-3.83,15-15.15,20.2-23.72,20.2-15.15,0-30.14-13.31-30.14-33,0-19.28,13.46-33.05,31.67-33.05C681.14,42.38,689,50.64,689,58c0,2.29-.46,2.75-2.91,2.75H675.63Z\"><\/path><path class=\"cls-1\" d=\"M741.42,46.36a25.25,25.25,0,0,0-9.33-1.53c-8.87,0-15,3.36-15,6.42V99.6c0,3.06,6.12,6.43,13.46,6.43,7.8,0,17.75-4.74,21.42-18.51l2.3.76c-3.83,15-15.15,20.2-23.72,20.2-15.15,0-30.14-13.31-30.14-33,0-19.28,13.46-33.05,31.67-33.05,14.84,0,22.64,8.26,22.64,15.61,0,2.29-.45,2.75-2.9,2.75H741.42Z\"><\/path><path class=\"cls-1\" d=\"M766.21,76.19c0-15.14,9.79-33.81,29.53-33.81,16.22,0,26.93,12.24,26.93,24.94,0,2.45-2,2.75-4.14,2.75H782.88V98.84c0,3.52,7,7,14.08,7a24.12,24.12,0,0,0,22.95-17.6l2.45.77c-3.83,13.61-16.22,19.27-25.4,19.27C778.14,108.32,766.21,90,766.21,76.19Zm40.85-8.56v-17c0-2.9-3.37-5.81-11.32-5.81-7,0-12.86,2.91-12.86,5.81v17Z\"><\/path><path class=\"cls-1\" d=\"M871.78,103.12h9.64V49.88c0-2.76-.92-3.06-3.37-3.06-2.91,0-12.39,1.07-22.95,4.13v52.17h9.64v2.45H831.39v-2.45h9.18V46.82h-9.18V44.37H844.7l10.4-1.53v5.35c9.49-2.44,20.2-4.28,24.79-4.28,6.27,0,16.06,3.83,16.06,13.77v45.44h9.18v2.45H871.78Z\"><\/path><path class=\"cls-1\" d=\"M936.8,105.57c-6.27,0-16.06-3.37-16.06-13.31V46.82H909.87V44.37h10.87V28.46l7.19.76,7.34-2.45v17.6h14.38v2.45H935.27v54.47c0,1.68.31,1.83,1.84,1.83h14.07v2.45Z\"><\/path><path class=\"cls-1\" d=\"M233,181.32h-4v-.8h14.05v.8h-4.45v32.4h10.55l4.75-8.4h.7l-.95,9.2H229v-.8h4Z\"><\/path><path class=\"cls-1\" d=\"M265.89,194.52V213c0,.9.5,1.15,1.5,1.15a13.69,13.69,0,0,0,7.1-2.3V195.32H271v-.8h8.25v19.2h3v.8h-7.75v-1.75a13.79,13.79,0,0,1-7.1,2.25c-2.75,0-6.25-1.75-6.25-5v-14.7h-3v-.8Z\"><\/path><path class=\"cls-1\" d=\"M290.83,214.52h-7.25v-.8h1.2l2.3-1.55,5.25-7.3-5.65-9.55h-2.6v-.8h10.76v.8h-2.76l3.81,6.5h.35l3.5-4.95-1.45-1.55H297v-.8h7.3v.8h-1.2l-2.5,1.55-4.15,5.9,6.4,10.95h2.4v.8H295v-.8h2.6l-4.76-8h-.34l-4.55,6.45,1.69,1.55h1.2Z\"><\/path><path class=\"cls-1\" d=\"M314,194.52V213c0,.9.5,1.15,1.5,1.15a13.72,13.72,0,0,0,7.11-2.3V195.32h-3.51v-.8h8.26v19.2h3v.8h-7.75v-1.75a13.82,13.82,0,0,1-7.11,2.25c-2.75,0-6.25-1.75-6.25-5v-14.7h-3v-.8Z\"><\/path><path class=\"cls-1\" d=\"M344.08,214.52H332.23v-.8h3.1v-18.4h-3.1v-.8h4.45l3.4-.5v2.65c3.35-2.2,4.95-2.4,6.2-2.4a3.61,3.61,0,0,1,3.75,3.45c0,1.5-.09,2-.95,2h-3.4v-4.6c-1.85.25-2.9.8-5.6,2.45v16.15h4Z\"><\/path><path class=\"cls-1\" d=\"M362.18,216.57l-9.3-21.25h-2.1v-.8h9.9v.8h-2.4l5.8,14h.45l4.1-12.8-2.25-1.2h-1.25v-.8h7.16v.8h-1.06l-1.7,1.2-8.65,26.9c-.85,2.65-2.4,3.65-4.6,3.65H356c-.95,0-1-.09-1-.95v-2.9h4.15c.55,0,.95-.1,1.1-.6Z\"><\/path><path class=\"cls-1\" d=\"M381.68,213.72h3.95v-32.4h-3.95v-.8h16.1c9.16,0,14.46,8.4,14.46,17s-5.3,17-14.46,17h-16.1Zm16.1,0c4.55,0,8.16-2.5,8.16-4.4v-23.6c0-1.9-3.61-4.4-8.16-4.4h-6.5v32.4Z\"><\/path><path class=\"cls-1\" d=\"M416.53,204.92c0-4.95,3.2-11,9.65-11A8.44,8.44,0,0,1,435,202c0,.8-.65.9-1.35.9H422v9.4c0,1.15,2.3,2.3,4.6,2.3a7.88,7.88,0,0,0,7.5-5.75l.8.25a8.67,8.67,0,0,1-8.3,6.3C420.43,215.42,416.53,209.42,416.53,204.92Zm13.35-2.8v-5.55c0-.95-1.1-1.9-3.7-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M449.28,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15.05.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2.05.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M464.43,213.72h3.3v.8H456.58v-.8h3.1v-18.4h-3.1v-.8H461l3.4-.5Zm-5.8-27.3a3.06,3.06,0,1,1,3.05,2.85A3,3,0,0,1,458.63,186.42Z\"><\/path><path class=\"cls-1\" d=\"M480,193.87a8.43,8.43,0,0,1,5.65,2.2l.3-.65c1.1-2.15,2-3.55,3.15-3.55h.9c.95,0,1,.1,1,.95v2.4h-3.7c-.35,0-.45.05-.6.35l-.55,1.05a7.46,7.46,0,0,1,2.15,4.85c0,3.25-3.45,7.5-8.35,7.5a8.23,8.23,0,0,1-3.55-.8c-2.3.15-4.95,1.75-4.95,3,0,.75.6,1.2,3.95,1.2H483c5,0,7.4,2.3,7.45,7.75v.2c0,3.4-3.7,7.16-10.45,7.16s-10-2.56-10-5.16c0-1.35.85-2.75,4.65-4.8l.3-.15c-3-.2-4.45-1.6-4.45-5.9,0-1.65,2.35-3.1,4.4-3.65v-.55a7.83,7.83,0,0,1-3.3-5.8C471.63,198.12,475.13,193.87,480,193.87Zm0,32.86c6.15,0,9.6-3.36,9.6-6.31,0-1.9-1-3-4.35-3h-8.95l-.95.5a2.12,2.12,0,0,0-1.1,2.1v5.1C474.28,226.07,476.88,226.73,480,226.73Zm-3.85-30.41v10.2c0,.65,1.6,1.7,3.8,1.7s3.8-1.05,3.8-1.7v-10.2c0-.6-1.6-1.65-3.8-1.65S476.18,195.72,476.18,196.32Z\"><\/path><path class=\"cls-1\" d=\"M505.73,213.72h3.15v-17.4c0-.9-.3-1-1.1-1a33.47,33.47,0,0,0-7.5,1.35v17.05h3.15v.8h-10.9v-.8h3v-18.4h-3v-.8h4.35l3.4-.5v1.75a42.7,42.7,0,0,1,8.1-1.4c2.05,0,5.25,1.25,5.25,4.5v14.85h3v.8h-10.9Z\"><\/path><path class=\"cls-1\" d=\"M529.73,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15,0,.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M561.28,181.77a10,10,0,0,0-5.1-1.3c-3.9,0-6.35,2.65-6.35,3.15,0,.15,0,.25.25.5l15.75,18.55a4.83,4.83,0,0,1,1.2,3.4c0,3.5-3.5,9.25-10.55,9.25a12.79,12.79,0,0,1-6.9-2l-3,1.25H546v-9.7h.65l3.55,7.8a11.45,11.45,0,0,0,6.3,1.9c4.4,0,7.5-3,7.5-4.3a1.94,1.94,0,0,0-.6-1.35l-15.1-17.5a5.3,5.3,0,0,1-1.35-3.55c0-4.15,4.25-8.15,9.25-8.15a11.37,11.37,0,0,1,5.55,1.4l2.65-.65h.6l.2,8.4h-.65Z\"><\/path><path class=\"cls-1\" d=\"M578.73,195.77a42.07,42.07,0,0,1,8.1-1.4c2,0,5.25,1.25,5.25,4.5v14.85h3v.8h-10.9v-.8h3.15v-17.4c0-.9-.3-1-1.1-1a33.47,33.47,0,0,0-7.5,1.35v17.05h3.15v.8H571v-.8h3v-32.4h-3v-.8h4.35l3.4-.5Z\"><\/path><path class=\"cls-1\" d=\"M607.58,193.87c6.15,0,10.15,5.65,10.15,10.8s-4,10.8-10.15,10.8-10.15-5.65-10.15-10.8S601.43,193.87,607.58,193.87Zm-4.7,2.9v15.8c0,.8,2.15,2.1,4.7,2.1s4.7-1.3,4.7-2.1v-15.8c0-.8-2.15-2.1-4.7-2.1S602.88,196,602.88,196.77Z\"><\/path><path class=\"cls-1\" d=\"M631.73,227.07H620.48v-.8h3v-31h-3v-.8h4.35l3.4-.5v1.65a10.84,10.84,0,0,1,5.45-1.6c5.65,0,9.75,4.5,9.75,10.45s-4.1,10.5-9.75,10.5a10.84,10.84,0,0,1-5.45-1.6v12.85h3.5Zm-3.5-30.5v16a10.41,10.41,0,0,0,5.45,1.7c2.35,0,4.3-.9,4.3-1.85V196.72c0-.95-2-1.85-4.3-1.85A10.41,10.41,0,0,0,628.23,196.57Z\"><\/path><path class=\"cls-1\" d=\"M657.43,227.07H646.18v-.8h3v-31h-3v-.8h4.35l3.4-.5v1.65a10.84,10.84,0,0,1,5.45-1.6c5.65,0,9.75,4.5,9.75,10.45S665,215,659.38,215a10.84,10.84,0,0,1-5.45-1.6v12.85h3.5Zm-3.5-30.5v16a10.41,10.41,0,0,0,5.45,1.7c2.35,0,4.3-.9,4.3-1.85V196.72c0-.95-1.95-1.85-4.3-1.85A10.41,10.41,0,0,0,653.93,196.57Z\"><\/path><path class=\"cls-1\" d=\"M673,204.92c0-4.95,3.2-11,9.65-11a8.44,8.44,0,0,1,8.8,8.15c0,.8-.65.9-1.35.9H678.43v9.4c0,1.15,2.3,2.3,4.6,2.3a7.88,7.88,0,0,0,7.5-5.75l.8.25a8.67,8.67,0,0,1-8.3,6.3C676.88,215.42,673,209.42,673,204.92Zm13.35-2.8v-5.55c0-.95-1.1-1.9-3.7-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M710.38,213.42a10.84,10.84,0,0,1-5.45,1.6c-5.7,0-9.76-4.5-9.76-10.5s4.06-10.45,9.76-10.45a10.84,10.84,0,0,1,5.45,1.6V181.32h-3.5v-.8h4.85l3.4-.5v33.7h3v.8h-7.75Zm-5.45.8a10.55,10.55,0,0,0,5.45-1.7v-16a10.55,10.55,0,0,0-5.45-1.7c-1.75,0-4.31.7-4.31,1.9v15.55C700.62,213.52,703.18,214.22,704.93,214.22Z\"><\/path><path class=\"cls-1\" d=\"M728.38,213.72h4v-32.4h-4v-.8h24.75l.35,8.55h-.7l-4.1-7.75H738v15.75h5.75l2.7-5.1h.7l.1,11.1h-.7l-2.8-5.2H738v15.85h11.35l4.7-8.4h.7l-.9,9.2H728.38Z\"><\/path><path class=\"cls-1\" d=\"M762.47,195.32h-3.6v-.8h3.6v-2.25c0-7.5,4.11-12,9.7-12,2.36,0,5.11,1,5.86,2.9a6.92,6.92,0,0,1,5.85-3.4c2.35,0,5.15,1.35,5.15,4,0,.7-.1.8-.95.8h-3.4v-4a4,4,0,0,0-.8,0c-2.15,0-3.35,1.2-3.35,2.35v11.55h4.6v.8h-4.6v18.4h3.85v.8H772.17v-.8h3.61v-18.4h-8.56v18.4h3v.8H758.87v-.8h3.6Zm4.75-.8h8.56v-2.25a18.69,18.69,0,0,1,1.25-7.15h-3.15v-3.8a6.36,6.36,0,0,0-1.71-.2c-3,0-4.95,1.5-4.95,2.9Z\"><\/path><path class=\"cls-1\" d=\"M798.38,193.87c6.15,0,10.15,5.65,10.15,10.8s-4,10.8-10.15,10.8-10.15-5.65-10.15-10.8S792.23,193.87,798.38,193.87Zm-4.7,2.9v15.8c0,.8,2.15,2.1,4.7,2.1s4.7-1.3,4.7-2.1v-15.8c0-.8-2.15-2.1-4.7-2.1S793.68,196,793.68,196.77Z\"><\/path><path class=\"cls-1\" d=\"M823.08,214.52H811.23v-.8h3.1v-18.4h-3.1v-.8h4.45l3.4-.5v2.65c3.35-2.2,4.95-2.4,6.2-2.4a3.61,3.61,0,0,1,3.75,3.45c0,1.5-.1,2-.95,2h-3.4v-4.6c-1.85.25-2.9.8-5.6,2.45v16.15h4Z\"><\/path><path class=\"cls-1\" d=\"M839.18,214.52c-2.06,0-5.26-1.1-5.26-4.35V195.32h-3.54v-.8h3.54v-5.2l2.36.25,2.4-.8v5.75h4.7v.8h-4.7v17.8c0,.55.1.6.6.6h4.6v.8Z\"><\/path><path class=\"cls-1\" d=\"M848.87,181.32h-3.1v-.8h4.45l3.4-.5v33.7h3v.8H845.77v-.8h3.1Z\"><\/path><path class=\"cls-1\" d=\"M859.47,204.92c0-4.95,3.2-11,9.65-11a8.44,8.44,0,0,1,8.8,8.15c0,.8-.64.9-1.34.9H864.92v9.4c0,1.15,2.3,2.3,4.6,2.3a7.89,7.89,0,0,0,7.51-5.75l.8.25a8.68,8.68,0,0,1-8.31,6.3C863.37,215.42,859.47,209.42,859.47,204.92Zm13.36-2.8v-5.55c0-.95-1.11-1.9-3.71-1.9-2.3,0-4.2,1-4.2,1.9v5.55Z\"><\/path><path class=\"cls-1\" d=\"M892.22,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15,0,.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.31l.19,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M910.82,195.57a7,7,0,0,0-3.25-.85c-2.2,0-3.9,1.05-3.9,1.95,0,.15.05.3.3.55l9.25,9.15a4.18,4.18,0,0,1,1.35,3.1,6.26,6.26,0,0,1-6.6,6,10,10,0,0,1-5.1-1.65l-2,.7h-.35v-7.25h.5l2.25,5.75a9.06,9.06,0,0,0,4.75,1.65c2.65,0,4.1-1.65,4.1-2.3a.7.7,0,0,0-.2-.45l-9.3-9.15a4.27,4.27,0,0,1-1.35-3.05c0-2.85,2.2-5.8,6.35-5.8a8,8,0,0,1,3.6.9l2-.3h.3l.2,6.5h-.5Z\"><\/path><path class=\"cls-1\" d=\"M921,181.32h-3.1v-.8h4.45l3.4-.5v33.7h3v.8H917.87v-.8H921Z\"><\/path><path class=\"cls-1\" d=\"M940.92,216.57l-9.3-21.25h-2.1v-.8h9.9v.8H937l5.8,14h.45l4.1-12.8-2.25-1.2h-1.25v-.8H951v.8h-1l-1.7,1.2-8.65,26.9c-.85,2.65-2.4,3.65-4.6,3.65h-.25c-.95,0-1-.09-1-.95v-2.9h4.15c.55,0,1-.1,1.1-.6Z\"><\/path><\/g><\/g><\/svg>",
+          "logo": "shopify:\/\/shop_images\/Logo_with_Tagline.png",
+          "logo_max_width": 350,
+          "contact_text": "(888) 406-6668",
+          "phone_text": "Call us!",
+          "hours_text": "Everyday 10am -10pm ET",
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": false,
+          "message_text": "Free Shipping. Always.",
+          "message_link": "https:\/\/lightingaccent.com\/",
+          "color_bg": "#091357",
+          "color_text": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "Meet Lighting Accent",
+              "menu": "meet-lighting-accent"
+            }
+          },
+          "1566317717526": {
+            "type": "link_list",
+            "settings": {
+              "title": "Customer Service",
+              "menu": "footer"
+            }
+          },
+          "c05e6e07-07a9-4880-bc1e-e491101b999f": {
+            "type": "link_list",
+            "settings": {
+              "title": "Shop More",
+              "menu": "shop-more"
+            }
+          },
+          "24df09af-17a3-4b2c-bd3e-7f4762442364": {
+            "type": "text",
+            "settings": {
+              "title": "Contact us",
+              "text": "<p><a href=\"tel:(888) 406-6668\" title=\"tel:(888) 406-6668\">(888) 406-6668<\/a><\/p><p>hello<a href=\"mailto:care@lightingaccent.com\" title=\"mailto:care@lightingaccent.com\">@lightingaccent.com<\/a><\/p><p>Everyday 10am-10pm ET <\/p><p>6075 Barfield Rd<br\/>Sandy Springs, GA, USA 30328<\/p>",
+              "footer_page_max_width": "75"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "1566317717526",
+          "c05e6e07-07a9-4880-bc1e-e491101b999f",
+          "24df09af-17a3-4b2c-bd3e-7f4762442364"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#091357",
+          "color_footer_text": "#ffffff"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
+        }
+      },
+      "1566322970694": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1566322970694-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "chandeliers"
+            }
+          },
+          "1566322970694-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "pendant"
+            }
+          },
+          "cc099549-0daa-4d49-8ac8-91f2cfc78281": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "flush-mount"
+            }
+          },
+          "7fd2d117-593e-42d6-a5a7-31d8e56ba69e": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "wall-lights-1"
+            }
+          },
+          "28e02d6a-5eaf-476c-8e70-7ec1178e2ed9": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "table-floor-lamps"
+            }
+          },
+          "e5496ac0-54e4-42a2-a93f-eff9292cf528": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "chandel-air"
+            }
+          }
+        },
+        "block_order": [
+          "1566322970694-0",
+          "1566322970694-1",
+          "cc099549-0daa-4d49-8ac8-91f2cfc78281",
+          "7fd2d117-593e-42d6-a5a7-31d8e56ba69e",
+          "28e02d6a-5eaf-476c-8e70-7ec1178e2ed9",
+          "e5496ac0-54e4-42a2-a93f-eff9292cf528"
+        ],
+        "settings": {
+          "title": "Shop by Categories",
+          "grid": 3
+        }
+      },
+      "1566323001256": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "GET 10% OFF YOUR FIRST PURCHASE!",
+          "subheading": "",
+          "show_background": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "5584e1c7-12a7-401e-b55a-de479ffb840c": {
+            "type": "gurantee_badges",
+            "settings": {
+              "img_badge": "shopify:\/\/shop_images\/Asset_4_4x_8429e749-ca07-4b07-a41b-813a3fa4d42f.png"
+            }
+          },
+          "04813e7d-b964-42b5-a5cc-d314fcca9f73": {
+            "type": "gurantee_badges",
+            "settings": {
+              "img_badge": "shopify:\/\/shop_images\/Asset_3_4x_d9ef7fb6-5470-41e4-b232-6d535bb15885.png"
+            }
+          },
+          "84cf388b-1796-44ab-8809-232689ed0063": {
+            "type": "gurantee_badges",
+            "settings": {
+              "img_badge": "shopify:\/\/shop_images\/Asset_2_4x_adda9dcd-5562-452c-979e-0eddc9d6226f.png"
+            }
+          },
+          "6a6f7c69-b8b6-4b96-8444-377da46002ae": {
+            "type": "gurantee_badges",
+            "settings": {
+              "img_badge": "shopify:\/\/shop_images\/Asset_1_4x_614e0086-0f63-4213-836b-08f173e80311.png"
+            }
+          }
+        },
+        "block_order": [
+          "5584e1c7-12a7-401e-b55a-de479ffb840c",
+          "04813e7d-b964-42b5-a5cc-d314fcca9f73",
+          "84cf388b-1796-44ab-8809-232689ed0063",
+          "6a6f7c69-b8b6-4b96-8444-377da46002ae"
+        ],
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": true,
+          "enable_zoom": true,
+          "enable_payment_button": true,
+          "show_share_buttons": false,
+          "expiring_coupon_text": "",
+          "expiring_day": "2",
+          "show_eta": false,
+          "early_delivery": "3",
+          "late_delivery": "5",
+          "country_eta": "*ETA to USA Only",
+          "shipping_text": "",
+          "product_page_max_width": "100",
+          "product_reviews_enable": true,
+          "shipping_txt": "FREE SHIPPING",
+          "gurantee_title": "Guaranteed Safe Checkout",
+          "img_norton": "shopify:\/\/shop_images\/new-norton-seal1.png"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "blocks": {
+          "1566330921963": {
+            "type": "tag-list",
+            "settings": {
+              "title": "Collections",
+              "tags": "Balance Light"
+            }
+          },
+          "1566331128738": {
+            "type": "vendors",
+            "settings": {
+              "title": "Brands"
+            }
+          },
+          "9aa6dd95-ba87-4330-bd68-7726f710e3ea": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          }
+        },
+        "block_order": [
+          "1566330921963",
+          "1566331128738",
+          "9aa6dd95-ba87-4330-bd68-7726f710e3ea"
+        ],
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 23,
+          "show_collection_image": false,
+          "show_vendor": true,
+          "sort_enable": true,
+          "tags_enable": false,
+          "show_sidebar": true
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_recently_viewed_products": false,
+          "title": "Recently Viewed Products"
+        }
+      },
+      "1620693651b611cdc4": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1620693651b611cdc4-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "modern-contemporary"
+            }
+          },
+          "ff36b1f8-e49c-42da-a743-14835f8ea3ae": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "craftsman-mission"
+            }
+          },
+          "76b231ff-80b0-4b87-b67a-2e3895150067": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "tiffany"
+            }
+          },
+          "1620693651b611cdc4-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "transitional"
+            }
+          },
+          "1620693651b611cdc4-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "rustic-farmhouse"
+            }
+          },
+          "1fc8154e-d5b1-49e5-8088-ab14617761bc": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "classic"
+            }
+          }
+        },
+        "block_order": [
+          "1620693651b611cdc4-0",
+          "ff36b1f8-e49c-42da-a743-14835f8ea3ae",
+          "76b231ff-80b0-4b87-b67a-2e3895150067",
+          "1620693651b611cdc4-2",
+          "1620693651b611cdc4-1",
+          "1fc8154e-d5b1-49e5-8088-ab14617761bc"
+        ],
+        "settings": {
+          "title": "Shop by Style",
+          "grid": 3
+        }
+      },
+      "16207017730629b8bd": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "16207017730629b8bd-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bronze"
+            }
+          },
+          "16207017730629b8bd-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "black"
+            }
+          },
+          "0629ae52-4e85-4288-ace8-fed42dbd56fb": {
+            "type": "featured_collection",
+            "disabled": true,
+            "settings": {
+              "collection": "nickel"
+            }
+          },
+          "16207017730629b8bd-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "copper"
+            }
+          },
+          "389f1c51-13c6-495b-9c52-38c045ccbae6": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "glass"
+            }
+          },
+          "588f178e-3281-4dae-ab7e-8c261cf699ba": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "brown"
+            }
+          },
+          "f8cd5d2d-9be4-4591-a66d-a55e8cc56ea3": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "16207017730629b8bd-2",
+          "16207017730629b8bd-1",
+          "0629ae52-4e85-4288-ace8-fed42dbd56fb",
+          "16207017730629b8bd-0",
+          "389f1c51-13c6-495b-9c52-38c045ccbae6",
+          "588f178e-3281-4dae-ab7e-8c261cf699ba",
+          "f8cd5d2d-9be4-4591-a66d-a55e8cc56ea3"
+        ],
+        "settings": {
+          "title": "Shop by Finish",
+          "grid": 3
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "1630435785949ce0c8": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/LK-130L5PA2.png",
+          "img_link": "shopify:\/\/collections\/exclusive-brands",
+          "layout": "left",
+          "title": "Exclusive Designs Only Available Here",
+          "text": "<p><br\/>Discover our stunning collection of exclusive styles you won't find anywhere else.<\/p><p><br\/><\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections\/exclusive-brands"
+        }
+      },
+      "16304489401171d8f7": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/LPAS-305-01-2Z.jpg",
+          "img_link": "shopify:\/\/collections\/all-about-table-lamps",
+          "layout": "right",
+          "title": "All about Bedroom",
+          "text": "<p><br\/><\/p><p>Our editors' picks from all our favorite brands. Find that perfect finishing touch to create your favorite room. <\/p><p><br\/><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections\/all-about-table-lamps"
+        }
+      },
+      "1630451735ca4628bf": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/27580145_947653322077392_8912034328628690944_n.jpg",
+          "img_link": "shopify:\/\/collections\/pendant",
+          "layout": "left",
+          "title": "Limited Sale: 15% Off ALL BRANDS!",
+          "text": "<p><\/p><p><\/p><p>Check out with Coupon Code AUTUMN<br\/><br\/><\/p>",
+          "button_label": "Shop Pendants",
+          "button_link": "shopify:\/\/collections\/pendant"
+        }
+      },
+      "16304588797c539b18": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "16304588797c539b18-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/163867_1024x1024_2x_693c358c-3ac5-4ce7-91c5-194899cfd04c.jpg",
+              "img_link": "",
+              "title": "",
+              "text": "",
+              "button_label": "Copper",
+              "button_link": "shopify:\/\/collections\/copper"
+            }
+          },
+          "16304588797c539b18-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/16.png",
+              "img_link": "",
+              "title": "",
+              "text": "",
+              "button_label": "Glass",
+              "button_link": "shopify:\/\/collections\/glass"
+            }
+          },
+          "16304588797c539b18-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/45605X10-1_1024x1024_2x_4d20d0a7-0132-4f3d-afbc-087e38aeeb66_720x_1.jpg",
+              "img_link": "",
+              "title": "",
+              "text": "",
+              "button_label": "Bronze",
+              "button_link": "shopify:\/\/collections\/bronze"
+            }
+          }
+        },
+        "block_order": [
+          "16304588797c539b18-0",
+          "16304588797c539b18-1",
+          "16304588797c539b18-2"
+        ],
+        "settings": {
+          "title": "Shop by Finish",
+          "align_text": "center"
+        }
+      },
+      "1630459683e5e4d275": {
+        "type": "feature-columns",
+        "blocks": {
+          "1630459683e5e4d275-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/220811_1024x1024_2x_e3a07be7-e998-405e-a9ed-2742492a5600.jpg",
+              "img_link": "shopify:\/\/collections\/modern-contemporary",
+              "title": "",
+              "text": "",
+              "button_label": "Modern & Contemporary",
+              "button_link": "shopify:\/\/collections\/modern-contemporary"
+            }
+          },
+          "1630459683e5e4d275-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Untitled_design_8_720x_1.png",
+              "img_link": "shopify:\/\/collections\/transitional",
+              "title": "",
+              "text": "",
+              "button_label": "Transitional",
+              "button_link": "shopify:\/\/collections\/transitional"
+            }
+          },
+          "1630459683e5e4d275-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chandelier_-_Traditional_720x_1.png",
+              "img_link": "shopify:\/\/collections\/classic",
+              "title": "",
+              "text": "",
+              "button_label": "Traditional",
+              "button_link": "shopify:\/\/collections\/classic"
+            }
+          }
+        },
+        "block_order": [
+          "1630459683e5e4d275-0",
+          "1630459683e5e4d275-2",
+          "1630459683e5e4d275-1"
+        ],
+        "settings": {
+          "title": "Shop by style",
+          "align_text": "center"
+        }
+      },
+      "1630460244f4a90adc": {
+        "type": "feature-columns",
+        "blocks": {
+          "1630460244f4a90adc-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/8.png",
+              "img_link": "shopify:\/\/collections\/rustic-farmhouse",
+              "title": "",
+              "text": "",
+              "button_label": "Rustic & Farmhouse",
+              "button_link": "shopify:\/\/collections\/rustic-farmhouse"
+            }
+          },
+          "1630460244f4a90adc-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/232772X10-4_1024x1024_2x_d89749bf-49a4-4ba3-8faf-a030a26b84fa.jpg",
+              "img_link": "shopify:\/\/collections\/tiffany",
+              "title": "",
+              "text": "",
+              "button_label": "Tiffany",
+              "button_link": "shopify:\/\/collections\/tiffany"
+            }
+          },
+          "1630460244f4a90adc-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/7.png",
+              "img_link": "shopify:\/\/collections\/craftsman-mission",
+              "title": "",
+              "text": "",
+              "button_label": "Craftsman & Mission",
+              "button_link": "shopify:\/\/collections\/craftsman-mission"
+            }
+          }
+        },
+        "block_order": [
+          "1630460244f4a90adc-0",
+          "1630460244f4a90adc-2",
+          "1630460244f4a90adc-1"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "1630461866d3704d22": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "0d8dfe81-10fe-4252-97c9-4e836c850f5d": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Semi_Flush_Mount_-_Statement.png",
+              "img_link": "shopify:\/\/collections\/flush-mount",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Flush Mounts",
+              "button_link": "shopify:\/\/collections\/flush-mount"
+            }
+          },
+          "d996a519-f1bb-486b-8b8c-aa0905752212": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chandelier_Shaded_ac906c5b-2af6-4a48-9fd8-956e5b2caae8.jpg",
+              "img_link": "shopify:\/\/collections\/chandeliers",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Chandeliers",
+              "button_link": "shopify:\/\/collections\/chandeliers"
+            }
+          },
+          "4281f42c-7643-44d0-83de-5e87f5df0c5c": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/3d27bbe1a658cc3d51cb84541d24514f.png",
+              "img_link": "shopify:\/\/collections\/chandel-air",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Ceiling Fans",
+              "button_link": "shopify:\/\/collections\/chandel-air"
+            }
+          },
+          "ed1747ea-eacf-4f7a-b7e2-72d5fa635f11": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/69477341_492437508243645_4298761935188909062_n.jpg",
+              "img_link": "shopify:\/\/collections\/wall-lights-1",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Wall Lights",
+              "button_link": "shopify:\/\/collections\/wall-lights-1"
+            }
+          },
+          "1630461866d3704d22-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/LPAS-366-01-1Z.jpg",
+              "img_link": "shopify:\/\/collections\/table-floor-lamps",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Table & Floor Lamps",
+              "button_link": "shopify:\/\/collections\/table-floor-lamps"
+            }
+          },
+          "710d8cf6-ce41-4b61-acb6-84b09c385e49": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/196165769_942775559909622_8084513030643675834_n.jpg",
+              "img_link": "shopify:\/\/collections\/pendant",
+              "title": "",
+              "text": "",
+              "button_label": "Shop Pendants",
+              "button_link": "shopify:\/\/collections\/pendant"
+            }
+          }
+        },
+        "block_order": [
+          "0d8dfe81-10fe-4252-97c9-4e836c850f5d",
+          "d996a519-f1bb-486b-8b8c-aa0905752212",
+          "4281f42c-7643-44d0-83de-5e87f5df0c5c",
+          "ed1747ea-eacf-4f7a-b7e2-72d5fa635f11",
+          "1630461866d3704d22-1",
+          "710d8cf6-ce41-4b61-acb6-84b09c385e49"
+        ],
+        "settings": {
+          "title": "Shop by Categories",
+          "align_text": "center"
+        }
+      },
+      "163046224585f07b62": {
+        "type": "image-bar",
+        "blocks": {
+          "163046224585f07b62-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2018.06_Bone_China_Colour1.jpg",
+              "alignment": "bottom",
+              "link": "shopify:\/\/collections\/meyda-lighting",
+              "cta_label": "Our Favorite Brand  Meyda Lighting"
+            }
+          },
+          "163046224585f07b62-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2018.06_Metalworks_Colour.jpg",
+              "alignment": "center",
+              "link": "shopify:\/\/collections\/meyda-lighting",
+              "cta_label": "Handcrafted in the U.S."
+            }
+          },
+          "5d33613e-366e-4c12-a573-6aa7b0a7fbfd": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bone_China_Molds_2.2.jpg",
+              "alignment": "center",
+              "link": "shopify:\/\/collections\/meyda-lighting",
+              "cta_label": "Handcrafted"
+            }
+          },
+          "163046224585f07b62-0": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2018.06_Glass_Globe_Colour2.jpg",
+              "alignment": "center",
+              "link": "shopify:\/\/collections\/meyda-lighting",
+              "cta_label": "in the U.S."
+            }
+          }
+        },
+        "block_order": [
+          "163046224585f07b62-2",
+          "163046224585f07b62-1",
+          "5d33613e-366e-4c12-a573-6aa7b0a7fbfd",
+          "163046224585f07b62-0"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "163918784440344eb1": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/LPAS-289-01-2Z_a33c77bf-b761-4af9-b366-17bd59a5f3f9.jpg",
+          "img_link": "https:\/\/lightingaccent.com\/collections\/port-68?pf_t_type=Table+Lamps",
+          "layout": "right",
+          "title": "EVERYTHING IS ON SALE",
+          "text": "<p>  Our Biggest Sale Ever.<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+          "button_label": "Shop Now",
+          "button_link": ""
+        }
+      },
+      "163959315122cb5630": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/GSH-003_9_05bdb951-7765-4e56-b744-776b1f05f41f.jpg",
+          "img_link": "shopify:\/\/collections\/in-stock-ready-to-ship-1",
+          "layout": "left",
+          "title": "In Stock & Ready to Ship",
+          "text": "<p>Ready to go. Grab them before it's gone. <\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/collections\/in-stock-ready-to-ship-1"
+        }
+      },
+      "163959331835dfb0d4": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/LPAS-289-01-2Z_a33c77bf-b761-4af9-b366-17bd59a5f3f9.jpg",
+          "img_link": "shopify:\/\/collections\/table-floor-lamps-1",
+          "layout": "right",
+          "title": "Check Out Trendy Lamps",
+          "text": "<p><\/p><p><\/p><p>Explore top-trending styles from all our favorite brands. Find that perfect finishing touch for every room of the house, inside and out.<br\/><\/p>",
+          "button_label": "Shop Lamps",
+          "button_link": "shopify:\/\/collections\/table-floor-lamps"
+        }
+      },
+      "16433316116d0bf05d": {
+        "type": "custom-content",
+        "blocks": {
+          "69ac4fa2-598d-49d3-93aa-3e69aebfef0b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GSH-003_9.jpg",
+              "image_link": "shopify:\/\/collections\/in-stock-ready-to-ship-1",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "69ac4fa2-598d-49d3-93aa-3e69aebfef0b"
+        ],
+        "settings": {
+          "title": "In Stock & Ready to Ship"
+        }
+      },
+      "164347987857fdb096": {
+        "type": "collection",
+        "settings": {
+          "title": "Shop Eurofase | Innovative and Contemporary Design",
+          "collection": "eurofase",
+          "grid": 3,
+          "rows": 3,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "16550699268694dd55": {
+        "type": "collection",
+        "settings": {
+          "title": "Shop Our Featured Brand Port 68  | eclectic mix of antiques and collectibles STYLE",
+          "collection": "port-68",
+          "grid": 3,
+          "rows": 4,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "165507002423d050ff": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "12% Off on All Meyda Lighting | Check out with CODE MEYDA12",
+          "collection": "meyda-lighting",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      }
+    },
+    "content_for_index": [
+      "163959315122cb5630",
+      "1630451735ca4628bf",
+      "163959331835dfb0d4",
+      "163918784440344eb1",
+      "1630435785949ce0c8",
+      "16304489401171d8f7",
+      "1630461866d3704d22",
+      "1620693651b611cdc4",
+      "163046224585f07b62",
+      "165507002423d050ff",
+      "16550699268694dd55",
+      "164347987857fdb096",
+      "16433316116d0bf05d",
+      "1630459683e5e4d275",
+      "1630460244f4a90adc",
+      "1566322970694",
+      "1566323001256",
+      "16207017730629b8bd",
+      "16304588797c539b18"
+    ],
+    "blocks": {
+      "9901917232353999808": {
+        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875"
+      ]
+    }
+  }
+}

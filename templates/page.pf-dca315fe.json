@@ -1,1 +1,11 @@
-{"sections":{"pf-dca315fe":{"type":"pf-dca315fe","settings":{}}},"order":["pf-dca315fe"]}
+{
+  "sections": {
+    "pf-dca315fe": {
+      "type": "pf-dca315fe",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-dca315fe"
+  ]
+}

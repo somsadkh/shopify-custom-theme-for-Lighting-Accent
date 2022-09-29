@@ -4192,7 +4192,7 @@ theme.Product = (function() {
           if (!isInvalidQuantity && this.ajaxEnabled) {
             // disable the addToCart and dynamic checkout button while
             // request/cart popup is loading and handle loading state
-            this._handleButtonLoadingState(true);
+            // this._handleButtonLoadingState(true);
             var $data = $(this.selectors.productForm, this.$container);
             this._addItemToCart($data);
             return;
@@ -4220,13 +4220,13 @@ theme.Product = (function() {
             this._setupCartPopup(item);
           }.bind(this)
         )
-        // .fail(
-        //   function(response) {
-        //     this.$previouslyFocusedElement.focus();
-        //     this._showErrorMessage(response.responseJSON.description);
-        //     this._handleButtonLoadingState(false);
-        //   }.bind(this)
-        // );
+        .fail(
+          function(response) {
+            this.$previouslyFocusedElement.focus();
+            this._showErrorMessage(response.responseJSON.description);
+            this._handleButtonLoadingState(false);
+          }.bind(this)
+        );
     },
 
     _handleButtonLoadingState: function(isLoading) {
