@@ -1,0 +1,31 @@
+<div class="header-info-search-info">
+  <div class="header-search-block">
+    <form action="/search" method="get" role="search" class="search">
+      <div class="input-group">
+        <input type="search" class="input-group__field search__input boost-pfs-search-box ui-autocomplete-input" name="q" value="" placeholder="Search" aria-label="Search" id="boost-pfs-search-box-2" data-search-box="boost-pfs-search-box-2" aria-live="assertive" role="search" autocomplete="off">
+        <input type="search" id="SearchInput" aria-describedby="error-search-form" aria-invalid="true">
+        <span class="input-group__btn">
+          <button class="btn search__submit" type="submit">Search</button>
+        </span>
+      </div>
+    </form> 
+  </div>
+  <div class="header-info-block">
+    {% if section.settings.contact_text != blank %}
+    <span class="site-header__text">
+      <div style="padding-top: 10px;">{{ section.settings.contact_text | escape }}</div>
+    </span>
+    {% endif %}
+
+    {% if section.settings.phone_text != blank %}
+    <span class="site-header--spacer">
+      {{ section.settings.phone_text | escape }}<br>
+    </span>
+    {% endif %}
+    {% if section.settings.hours_text != blank %}
+    <span class="site-header__text">
+      {{ section.settings.hours_text | escape }}
+    </span>
+    {% endif %}
+  </div>
+</div>

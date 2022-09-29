@@ -1,0 +1,217 @@
+{% comment %}
+  The contents of the product.liquid template can be found in /sections/product-template.liquid
+{% endcomment %}
+
+{% section 'product-template' %}
+{% section 'product-recommendations' %}
+{% section 'recently-viewed-products' %}
+
+{% if collection %}
+  <div class="text-center return-link-wrapper page-width">
+    <a href="{{ collection.url }}" class="btn btn--secondary btn--has-icon-before return-link">
+      {% include 'icon-arrow-left' %}
+      {{ 'products.product.back_to_collection' | t: title: collection.title }}
+    </a>
+  </div>
+{% endif %}
+
+<script>
+  // Override default values of shop.strings for each template.
+  // Alternate product templates can change values of
+  // add to cart button, sold out, and unavailable states here.
+  theme.productStrings = {
+    addToCart: {{ 'products.product.add_to_cart' | t | json }},
+    soldOut: {{ 'products.product.sold_out' | t | json }},
+    unavailable: {{ 'products.product.unavailable' | t | json }}
+  }
+</script>
+
+{% assign current_variant = product.selected_or_first_available_variant %}
+
+{%- capture avada_seo_product -%}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "url": {{ shop.url | append: product.url | json }},
+  {%- if product.featured_image -%}
+    {%- assign image_size = product.featured_image.width | append: 'x' -%}
+    "image": [
+      {{ product.featured_image.src | img_url: image_size | prepend: "https:" | json }}
+    ],
+  {%- endif -%}
+  "description": {{ product.description | strip_html | json }},
+  {%- if current_variant.sku != blank -%}
+    "sku": {{ current_variant.sku | json }},
+  {%- endif -%}
+  "brand": {
+    "@type": "Thing",
+    "name": {{ product.vendor | json }}
+  },
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type" : "Offer",
+        {%- if variant.sku != blank -%}
+          "sku": {{ variant.sku | json }},
+        {%- endif -%}
+        "availability" : "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+        "price" : {{ variant.price | divided_by: 100.00 | json }},
+        "priceCurrency" : {{ cart.currency.iso_code | json }},
+        "url" : {{ shop.url | append: variant.url | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endcapture -%}
+
+
+{% comment %}SV 08.21.19{% endcomment %}
+<script type="text/javascript">
+  var __product = (function() {
+    var product = {{ product | json }};
+    
+    var variants = [];
+    var selected_variant;
+    {% for variant in product.variants %}
+      var variant = {{ variant | json }};
+      variant.inventory_policy = '{{ variant.inventory_policy }}';
+      variant.inventory_quantity = '{{ variant.inventory_quantity }}';
+      variants.push(variant);
+    
+      {% if variant.id == product.selected_or_first_available_variant.id %}
+    	selected_variant = variant;
+      {% endif %}
+    {% endfor %}
+    
+    product.variants = variants;
+    product.selected_variant = selected_variant;
+    
+    product.updateETA = function(variant) {
+      var $variantInfo = document.querySelector('.variant-info');
+      var isVariantUndefined = variant == undefined;
+      if (isVariantUndefined) {
+        $variantInfo.classList.add('hide');        
+        return;
+      }
+      $variantInfo.classList.remove('hide');
+      
+      var $eta = document.querySelector('#eta-text');
+      if ($eta == null) {
+        return;
+      }
+      
+      var selectedVariant = _.filter(variants, function(v) {
+        return v.id == variant.id;
+      });
+
+      if (selectedVariant.length) {        
+        selectedVariant = selectedVariant[0];
+        
+        var showETA = selectedVariant.inventory_management == 'shopify' && selectedVariant.inventory_quantity > 0;
+        //console.log(selectedVariant, showETA);
+        
+        $eta.classList[showETA ? 'remove' : 'add']('hide');
+        
+        // update product selected_variant
+        product.selected_variant = selectedVariant;        
+      }
+    };
+    
+    product.updateVariantStockInfo = function(variant) {
+      var $variantInfo = document.querySelector('.variant-info');
+      var isVariantUndefined = variant == undefined;
+      if (isVariantUndefined) {
+        $variantInfo.classList.add('hide');        
+        return;
+      }
+      $variantInfo.classList.remove('hide');
+      
+      var $stockInfo = document.querySelector('#stock-info');
+      var $stock = document.querySelector('#stock-info span');
+      if ($stockInfo == null || $stock == null) {
+        return;
+      }      
+      
+      var selectedVariant = _.filter(variants, function(v) {
+        return v.id == variant.id;
+      });
+      
+      if (selectedVariant.length) {
+        selectedVariant = selectedVariant[0];
+        console.log(selectedVariant);
+        
+        var isShopifyVariant = selectedVariant.inventory_management !== null;
+        $stockInfo.classList[isShopifyVariant ? 'remove' : 'add']('hide');
+        
+        if (selectedVariant.inventory_management !== null) {
+          if (selectedVariant.inventory_quantity >= 10) {
+            $stock.innerHTML = 'Plenty in stock';
+          }
+          else if (selectedVariant.inventory_quantity > 0 && selectedVariant.inventory_quantity < 10) {
+            $stock.innerHTML = selectedVariant.inventory_quantity + ' in stock';
+          }
+          else if (selectedVariant.inventory_quantity <= 0 && selectedVariant.inventory_policy == 'continue') {
+            $stock.innerHTML = 'Sold out - pre-order now and contact us for shipping timeline';
+          }
+          else {
+            $stock.innerHTML = 'Sold out';
+          }          
+        }
+      }    
+    };
+    
+    product.updateVariantDiscount = function(variant) {
+      var $discount = document.querySelector('[data-compare-percent]');
+      if ($discount == null) {
+        return;
+      }
+      
+      var selectedVariant = _.filter(variants, function(v) {
+        return v.id == variant.id;
+      });
+
+      if (selectedVariant.length) {        
+        selectedVariant = selectedVariant[0];
+        
+        var percent = Math.round(((selectedVariant.compare_at_price - selectedVariant.price) * 100) / selectedVariant.compare_at_price);
+        $discount.innerText = 'You save ' + percent + '%';
+      }
+    };
+    
+    
+    return product;    
+  })();
+  
+  (function() {
+    // On Page load
+    window.addEventListener('DOMContentLoaded', function(e) {
+      //console.log(e);
+      __product.updateETA(__product.selected_variant);
+      __product.updateVariantStockInfo(__product.selected_variant);
+      __product.updateVariantDiscount(__product.selected_variant);
+    });    
+  })();
+</script>
+<!--Start Stamped.io Auto Installation--><div id="stamped-main-widget" class="stamped-main-widget" data-widget-style="standard" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" data-description="{{ product.description | escape }}" data-product-sku="{{product.handle}}" data-product-type="{{product.type}}" data-widget-language="{{shop.locale}}">{{ product.metafields.stamped.reviews }}</div><!--End Stamped.io Auto Installation-->
+<script type="text/javascript">
+  window.AVADA_EM = window.AVADA_EM || {};
+
+  window.AVADA_EM.product = {
+    id: {{ product.id|json }},
+    title: {{ product.title|json }},
+    variants: {{ product.variants|json }},
+    selectedVariant: {{ product.selected_variant.id|json }},
+    vendor: {{ product.vendor|json }},
+    productType: {{ product.type|json }},
+    collections: {{ product.collections|map:'title'|json }},
+    image: "https:{{ product.featured_image.src|img_url:'grande' }}",
+    url: "{{ shop.secure_url }}{{ product.url }}",
+    price: {{ product.price |json }},
+    tags: {{ product.tags |json }},
+  };
+</script>
+
+{% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, auto_install: true, product: product %}
