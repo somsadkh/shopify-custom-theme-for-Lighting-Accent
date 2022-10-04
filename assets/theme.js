@@ -4193,9 +4193,7 @@ theme.Product = (function() {
             // disable the addToCart and dynamic checkout button while
             // request/cart popup is loading and handle loading state
             this._handleButtonLoadingState(true);
-            console.log('adding...')
             var $data = $(this.selectors.productForm, this.$container);
-            console.log('posting...')
             this._addItemToCart($data);
             return;
           }
@@ -4208,29 +4206,72 @@ theme.Product = (function() {
       );
     },
 
-    _addItemToCart: function(data) {
-      var params = {
-        url: '/cart/add.js',
-        data: $(data).serialize(),
-        dataType: 'json'
-      };
+    // _addItemToCart: function(data) {
+    //   var params = {
+    //     url: '/cart/add.js',
+    //     data: $(data).serialize(),
+    //     dataType: 'json'
+    //   };
 
-      $.post(params)
-        .done(
-          function(item) {
-            console.log("done");
-            this._hideErrorMessage();
-            this._setupCartPopup(item);
-          }.bind(this)
-        )
-        .fail(
-          function(response) {
-            console.log("fail");
-            this.$previouslyFocusedElement.focus();
-            this._showErrorMessage(response.responseJSON.description);
-            this._handleButtonLoadingState(false);
-          }.bind(this)
-        );
+    //   console.log($(data).serialize());
+      
+    //   $.post(params)
+    //     .done(
+    //       function(item) {
+    //         console.log("done");
+    //         this._hideErrorMessage();
+    //         this._setupCartPopup(item);
+    //       }.bind(this)
+    //     )
+    //     .fail(
+    //       function(response) {
+    //         console.log("fail");
+    //         this.$previouslyFocusedElement.focus();
+    //         // this._showErrorMessage(response.responseJSON.description);
+    //         this._showErrorMessage(response.responseJSON);
+    //         console.log(response);
+    //         this._handleButtonLoadingState(false);
+    //       }.bind(this)
+    //     );
+    // },
+
+    _addItemToCart: function(data) {
+      var self = this;
+
+      fetch('/cart/add.js', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        body: $(data).serialize()
+      })
+        .then(function(response) {
+          // console.log("response", response)
+          return response.json();
+        })
+        .then(function(json) {
+          // console.log("json", json)
+          if (json.status && json.status !== 200) {
+            var error = new Error(json.description);
+            error.isFromServer = true;
+            throw error;
+          }
+          self._hideErrorMessage();
+          self._setupCartPopup(json);
+        })
+        .catch(function(error) {
+          self.previouslyFocusedElement.focus();
+          self._showErrorMessage(
+            error.isFromServer && error.message.length
+              ? error.message
+              : theme.strings.cartError
+          );
+          self._handleButtonLoadingState(false);
+          // eslint-disable-next-line no-console
+          console.log(error);
+        });
     },
 
     _handleButtonLoadingState: function(isLoading) {
@@ -4469,7 +4510,6 @@ theme.Product = (function() {
 
     _showCartPopup: function() {
       this.$cartPopupWrapper
-        .prepareTransition()
         .removeClass(this.classes.cartPopupWrapperHidden);
       this._handleButtonLoadingState(false);
 
@@ -4483,7 +4523,6 @@ theme.Product = (function() {
     _hideCartPopup: function(event) {
       var setFocus = event.detail === 0 ? true : false;
       this.$cartPopupWrapper
-        .prepareTransition()
         .addClass(this.classes.cartPopupWrapperHidden);
 
       $(this.selectors.cartPopupImage).remove();
