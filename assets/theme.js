@@ -4193,7 +4193,9 @@ theme.Product = (function() {
             // disable the addToCart and dynamic checkout button while
             // request/cart popup is loading and handle loading state
             this._handleButtonLoadingState(true);
+            console.log('adding...')
             var $data = $(this.selectors.productForm, this.$container);
+            console.log('posting...')
             this._addItemToCart($data);
             return;
           }
@@ -4216,12 +4218,14 @@ theme.Product = (function() {
       $.post(params)
         .done(
           function(item) {
+            console.log("done");
             this._hideErrorMessage();
             this._setupCartPopup(item);
           }.bind(this)
         )
         .fail(
           function(response) {
+            console.log("fail");
             this.$previouslyFocusedElement.focus();
             this._showErrorMessage(response.responseJSON.description);
             this._handleButtonLoadingState(false);
