@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ shop.locale }}">
 <head>
+<meta name="google-site-verification" content="Bk4dPoP-EyPCxu0-DU8ZgavNou52suR1kSvIAyDdErY" />
   {% render 'pagefly-head' %}
   {% include 'limespot' %}
   <!-- Added by AVADA SEO Suite -->
@@ -146,7 +147,7 @@
   <!--/DOOFINDER-SHOPIFY-->  
   {% render 'judgeme_core' %}
   <script async src="https://assets.apphero.co/script_tags/794096_949815.js"></script>
-</head>
+<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--></head>
 
 <body class="template-{{ template | split: '.' | first }}">
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -211,4 +212,4 @@
   <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
   {% include "hurrify-snippet" %}
 </body>
-</html>
+</html> 

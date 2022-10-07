@@ -6,7 +6,7 @@ const add_to_cart = document.querySelector("button.btn.product-form__cart-submit
 
 let myVar = setInterval(myTimer ,100);
 function myTimer() {
-  if (document.getElementsByTagName("script").length > 112){
+  if (document.getElementsByTagName("script").length > 105){
     console.log(document.getElementsByTagName("script"));
     console.log("add to cart loading...")
     add_to_cart.removeAttribute('aria-disabled');
