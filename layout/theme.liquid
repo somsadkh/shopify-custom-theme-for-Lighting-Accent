@@ -54,6 +54,7 @@
   {% include 'social-meta-tags' %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+  {{ 'custom.css' | asset_url | stylesheet_tag }}
 
   <script>
     var theme = {
@@ -146,8 +147,8 @@
     {% endif %}
   <!--/DOOFINDER-SHOPIFY-->  
   {% render 'judgeme_core' %}
-  <script async src="https://assets.apphero.co/script_tags/794096_949815.js"></script>
-<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--></head>
+  <script async src="https://assets.apphero.co/script_tags/794096_600299.js"></script>
+<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--><script async src="https://assets.apphero.co/script_tags/626746_591557.js"></script></head>
 
 <body class="template-{{ template | split: '.' | first }}">
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -211,5 +212,23 @@
     {% render 'hextom_usb_main', product: product, customer: customer %}
   <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
   {% include "hurrify-snippet" %}
+  
+<script>
+(function() {
+function onTidioChatApiReady() {
+window.tidioChatApi.hide();
+var timeoutInSeconds = 15;
+setTimeout(function() {
+window.tidioChatApi.show();
+}, timeoutInSeconds * 1000)
+}
+if (window.tidioChatApi) {
+window.tidioChatApi.on('ready', onTidioChatApiReady)
+} else {
+document.addEventListener('tidioChat-ready', onTidioChatApiReady);
+}
+})();
+</script>
+  
 </body>
 </html> 

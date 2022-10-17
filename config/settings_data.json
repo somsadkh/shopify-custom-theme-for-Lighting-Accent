@@ -178,6 +178,7 @@
       },
       "1566323001256": {
         "type": "newsletter",
+        "disabled": true,
         "settings": {
           "section_title": "GET 10% OFF YOUR FIRST PURCHASE!",
           "subheading": "",
@@ -449,7 +450,7 @@
           "img_link": "shopify:\/\/collections\/pendant",
           "layout": "left",
           "title": "Limited Sale: 15% Off ALL BRANDS!",
-          "text": "<p><\/p><p><\/p><p>Check out with Coupon Code AUTUMN<br\/><br\/><\/p>",
+          "text": "<p><\/p><p><\/p><p>Check out with Coupon Code:  OCTOBER<br\/><br\/><\/p>",
           "button_label": "Shop Pendants",
           "button_link": "shopify:\/\/collections\/pendant"
         }
@@ -607,7 +608,6 @@
       },
       "1630461866d3704d22": {
         "type": "feature-columns",
-        "disabled": true,
         "blocks": {
           "0d8dfe81-10fe-4252-97c9-4e836c850f5d": {
             "type": "text_block",
@@ -807,6 +807,7 @@
       },
       "164347987857fdb096": {
         "type": "collection",
+        "disabled": true,
         "settings": {
           "title": "Shop Eurofase | Innovative and Contemporary Design",
           "collection": "eurofase",
@@ -819,24 +820,23 @@
       "16550699268694dd55": {
         "type": "collection",
         "settings": {
-          "title": "Shop Our Featured Brand Port 68  | eclectic mix of antiques and collectibles STYLE",
+          "title": "Shop Port 68  | eclectic mix of antiques and collectibles STYLE",
           "collection": "port-68",
           "grid": 3,
-          "rows": 4,
+          "rows": 3,
           "show_vendor": false,
           "show_view_all": true
         }
       },
       "165507002423d050ff": {
         "type": "collection",
-        "disabled": true,
         "settings": {
-          "title": "12% Off on All Meyda Lighting | Check out with CODE MEYDA12",
+          "title": "Shop Meyda Lighting | Classic Tiffany, Rustic, Craftsman Style",
           "collection": "meyda-lighting",
           "grid": 3,
-          "rows": 2,
+          "rows": 3,
           "show_vendor": false,
-          "show_view_all": false
+          "show_view_all": true
         }
       }
     },
