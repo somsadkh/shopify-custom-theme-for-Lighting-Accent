@@ -9,21 +9,18 @@
 {%- endif -%}
 
 {%- if pageurl contains 'type=collection' -%}
-{%- paginate collections by lim -%}
+{%- paginate collections by 1000 -%}
 {%- assign page_count = paginate.pages -%}
 {%- endpaginate -%}
 {
 "pageCount": {{ page_count }},
 "items":
 [
-{%- paginate collections by lim -%}
+{%- paginate collections by 1000 -%}
 {% for collection in collections %}
 {
 {%- if pageurl contains 'preview=1' -%}
   "all_products_count": {{ collection.all_products_count | json }},
-  "all_tags": {{ collection.all_tags | json }},
-  "all_types": {{ collection.all_types | json }},
-  "all_vendors": {{ collection.all_vendors | json }},
   "current_type": {{ collection.current_type | json }},
   "current_vendor": {{ collection.current_vendor | json }},
   "default_sort_by": {{ collection.default_sort_by | json }},
@@ -33,13 +30,8 @@
   "image": {{ collection.image | json }},
   "next_product": {{ collection.next_product | json }},
   "previous_product": {{ collection.previous_product | json }},
-  "products": {{ collection.products | json }},
   "products_count": {{ collection.products_count | json }},
-  "published_at": {{ collection.published_at | json }},
   "sort_by": {{ collection.sort_by | json }},
-  "sort_options": {{ collection.sort_options | json }},
-  "template_suffix": {{ collection.template_suffix | json }},
-  "tags": {{ collection.tags | json }},
 {%- endif -%}
 {%- if pageurl contains 'count=1' -%}
   "image": {{ collection.image | json }},
@@ -92,7 +84,6 @@
   "selected_variant": {{ product.selected_variant | json }},
   "selected_or_first_available_variant": {{ product.selected_or_first_available_variant | json }},
   "tags": {{ product.tags | json }},
-  "template_suffix": {{ product.template_suffix | json }},
   "type": {{ product.type | json }},
   "variants": {{ product.variants | json }},
   "vendor": {{ product.vendor | json }},
@@ -173,7 +164,6 @@
   "handle": {{ page.handle | json }},
   "id": {{ page.id | json }},
   "published_at": {{ page.published_at | json }},
-  "template_suffix": {{ page.template_suffix | json }},
 {%- endif -%}
   "title": {{ page.title | strip_html | strip_newlines | strip | escape | json }},
   "url": {{ page.url | json }}

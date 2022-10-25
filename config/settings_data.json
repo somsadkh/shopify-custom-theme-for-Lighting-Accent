@@ -509,18 +509,6 @@
       "1630459683e5e4d275": {
         "type": "feature-columns",
         "blocks": {
-          "1630459683e5e4d275-0": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/220811_1024x1024_2x_e3a07be7-e998-405e-a9ed-2742492a5600.jpg",
-              "img_link": "shopify:\/\/collections\/modern-contemporary",
-              "title": "",
-              "text": "",
-              "button_label": "Modern & Contemporary",
-              "button_link": "shopify:\/\/collections\/modern-contemporary"
-            }
-          },
           "1630459683e5e4d275-2": {
             "type": "text_block",
             "settings": {
@@ -531,6 +519,18 @@
               "text": "",
               "button_label": "Transitional",
               "button_link": "shopify:\/\/collections\/transitional"
+            }
+          },
+          "1630459683e5e4d275-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/220811_1024x1024_2x_e3a07be7-e998-405e-a9ed-2742492a5600.jpg",
+              "img_link": "shopify:\/\/collections\/modern-contemporary",
+              "title": "",
+              "text": "",
+              "button_label": "Modern & Contemporary",
+              "button_link": "shopify:\/\/collections\/modern-contemporary"
             }
           },
           "1630459683e5e4d275-1": {
@@ -547,8 +547,8 @@
           }
         },
         "block_order": [
-          "1630459683e5e4d275-0",
           "1630459683e5e4d275-2",
+          "1630459683e5e4d275-0",
           "1630459683e5e4d275-1"
         ],
         "settings": {
@@ -760,19 +760,6 @@
           "button_link": ""
         }
       },
-      "163959315122cb5630": {
-        "type": "feature-row",
-        "disabled": true,
-        "settings": {
-          "image": "shopify:\/\/shop_images\/GSH-003_9_05bdb951-7765-4e56-b744-776b1f05f41f.jpg",
-          "img_link": "shopify:\/\/collections\/in-stock-ready-to-ship-1",
-          "layout": "left",
-          "title": "In Stock & Ready to Ship",
-          "text": "<p>Ready to go. Grab them before it's gone. <\/p>",
-          "button_label": "Shop Now",
-          "button_link": "shopify:\/\/collections\/in-stock-ready-to-ship-1"
-        }
-      },
       "163959331835dfb0d4": {
         "type": "feature-row",
         "settings": {
@@ -830,6 +817,7 @@
       },
       "165507002423d050ff": {
         "type": "collection",
+        "disabled": true,
         "settings": {
           "title": "Shop Meyda Lighting | Classic Tiffany, Rustic, Craftsman Style",
           "collection": "meyda-lighting",
@@ -841,25 +829,24 @@
       }
     },
     "content_for_index": [
-      "163959315122cb5630",
       "1630451735ca4628bf",
       "163959331835dfb0d4",
       "163918784440344eb1",
       "1630435785949ce0c8",
       "16304489401171d8f7",
+      "16550699268694dd55",
       "1630461866d3704d22",
       "1620693651b611cdc4",
-      "163046224585f07b62",
       "165507002423d050ff",
-      "16550699268694dd55",
+      "163046224585f07b62",
       "164347987857fdb096",
-      "16433316116d0bf05d",
       "1630459683e5e4d275",
       "1630460244f4a90adc",
+      "16433316116d0bf05d",
       "1566322970694",
       "1566323001256",
-      "16207017730629b8bd",
-      "16304588797c539b18"
+      "16304588797c539b18",
+      "16207017730629b8bd"
     ],
     "blocks": {
       "9901917232353999808": {

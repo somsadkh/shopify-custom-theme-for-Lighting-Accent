@@ -111,16 +111,11 @@
   <script src="{{ 'lazysizes.js' | asset_url }}" async="async"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js" integrity="sha256-VeNaFBVDhoX3H+gJ37DpT/nTuZTdjYro9yBruHjVmoQ=" crossorigin="anonymous" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-  {% comment %} <script src="{{ 'shop_events_listener.js' | asset_url }}" defer="defer"></script> {% endcomment %}
   
   {%- if template contains 'product' -%}
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
   
-  <!-- Avada Email Marketing Script -->
-    {% include 'avada-em-setting' %}
-  <!-- /Avada Email Marketing Script -->
-
   {{ content_for_header }}
 
   {% comment %} {% render 'gsf-conversion-pixels' %} {% endcomment %}
@@ -148,7 +143,7 @@
   <!--/DOOFINDER-SHOPIFY-->  
   {% render 'judgeme_core' %}
   <script async src="https://assets.apphero.co/script_tags/794096_600299.js"></script>
-<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--><script async src="https://assets.apphero.co/script_tags/626746_591557.js"></script></head>
+<!--DOOFINDER-SHOPIFY--> {% if content_for_header contains 'doofinder-installed.js' %} {% render 'doofinder-script-tag' %} {% endif %} <!--/DOOFINDER-SHOPIFY--><script async src="https://assets.apphero.co/script_tags/626746_521202.js"></script><script src="//staticxx.s3.amazonaws.com/aio_stats_lib_v1.min.js?v=1.0"></script><script async src="https://assets.apphero.co/script_tags/229866_239745.js"></script></head>
 
 <body class="template-{{ template | split: '.' | first }}">
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -230,5 +225,13 @@ document.addEventListener('tidioChat-ready', onTidioChatApiReady);
 })();
 </script>
   
+<input type="hidden" id="656565115116111114101" data-customer-id="{{ customer.id }}" data-customer-email="{{ customer.email }}" data-customer-name="{{ customer.first_name }} {{ customer.last_name }}"/>
+<!-- **BEGIN** Hextom SPM Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_spm_main', product: product, customer: customer %}
+    <!-- **END** Hextom SPM Integration // Main Include - DO NOT MODIFY -->
+
+<!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_qab_main', product: product, customer: customer %}
+    <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
 </body>
 </html> 

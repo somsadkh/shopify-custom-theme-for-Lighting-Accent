@@ -2,13 +2,15 @@
 {% if request.page_type == 'product' %}
 {%- unless avada_seo_ovr_product_ids contains product.id -%}
 {%- capture avada_seo_meta_title -%}{{ product.title }}{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}Buy {{ product.title }} on LightingAccent.com. 100% Lowest Price Guaranteed. Get it for Free Shipping. More than 20,000 Ceiling Lighting Fixtures to Explore. Shop Chandeliers, Pendants, Flush Mounts, Ceiling Fans today. {%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Buy {{ product.title }} at the Lowest Price from LightingAccent.com. Free Shipping. 30-Day Returns. 100% Price Match Guarantee. Shop Chandeliers, Pendants, Table Lamps, Home Décor today! {%- endcapture -%}
 {% endunless %}
 {% endif %}
 
 {% if request.page_type == 'collection' %}
+{%- unless avada_seo_ovr_collection_ids contains collection.id -%}
 {%- capture avada_seo_meta_title -%}{{ collection.title }}{%- endcapture -%}
-{%- capture avada_seo_meta_description -%}Explore {{ collection.title }} at LightingAccent.com. ✓ 100% Lowest Price Guaranteed. ✓ Free Shipping ✓ Best Customer Service ✓ Quality Products{%- endcapture -%}
+{%- capture avada_seo_meta_description -%}Explore {{ collection.title }} at LightingAccent.com. ✓ 100% Lowest Price Guarantee ✓ Free Shipping ✓30-Day Returns{%- endcapture -%}
+{% endunless %}
 {% endif %}
 
 {% if avada_seo_meta_title %}

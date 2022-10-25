@@ -121,7 +121,6 @@
 
         {% assign current_variant = product.selected_or_first_available_variant %}
 <span class="variant-sku">{{ current_variant.sku | prepend: 'Model Number: '}}</span>
-<span class="stamped-product-reviews-badge stamped-main-badge" data-id="{{product.id}}" data-product-title="{{product.title}}" data-product-type="{{product.type}}" style="display: block;"></span>
         
          {% if section.settings.product_reviews_enable %}
           <li class="product-meta--review">
@@ -240,20 +239,36 @@
               <h3 class="gurantee_title">{{section.settings.gurantee_title}}</h3>
               <div class="norton_img">
                 {% if section.settings.img_norton != blank %}
-               	 <img src="{{section.settings.img_norton | img_url:'120x120'}}" alt="badges">
-             	{% endif %}
-			  </div>
-       		 <div class="badges_blocks">
+                 <img class="badge_img lazyload"
+                        src="{{ section.settings.img_norton | img_url: '120x120' }}"
+                        data-src="{{ section.settings.img_norton | img_url: '120x120'}}"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="{{ section.settings.img_norton.aspect_ratio }}"
+                        data-sizes="auto"
+                        tabindex="-1"
+                        alt="{{ image.alt | escape }}">
+                {% endif %}
+			        </div>
+              <div class="badges_blocks">
                {% for block in section.blocks %}
                   {% if block.settings.img_badge != blank %}
-                   <img src="{{block.settings.img_badge | img_url:'master'}}" alt="badges" class="badge_img">
+
+                   <img class="badge_img lazyload"
+                        src="{{ block.settings.img_badge | img_url: '120x120' }}"
+                        data-src="{{ block.settings.img_badge | img_url: '120x120'}}"
+                        data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                        data-aspectratio="{{ block.settings.img_badge.aspect_ratio }}"
+                        data-sizes="auto"
+                        tabindex="-1"
+                        alt="{{ image.alt | escape }}">
+
+
                   {% endif %}
                {% endfor %}
               </div>
         	</div>
            {% endif %}
           {% endform %}
-        <div class="ultimate-countdown"></div>
         </div>
 
         {%- comment -%}
@@ -753,7 +768,7 @@
 }
 {% endschema %}
 
-<script>
+{% comment %} <script>
   const button = document.querySelector("button.btn.product-form__cart-submit.btn--secondary-accent");
   button.setAttribute("aria-disabled", "true")
-</script>
+</script> {% endcomment %}
