@@ -35,16 +35,12 @@
   </noscript>
 
   <div class="h4 grid-view-item__title product-card__title" aria-hidden="true">{{ product.title }}</div>
-{% comment %}Start automatically added Judge.me widget{% endcomment %}
-  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
-{% comment %}End automatically added Judge.me widget{% endcomment %}
+  {% comment %}Start automatically added Judge.me widget{% endcomment %}
+    {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+  {% comment %}End automatically added Judge.me widget{% endcomment %}
  
 
   {% include 'product-price', variant: product.selected_or_first_available_variant %} 
 
-
-<!-- **BEGIN** Hextom USB Integration // Collection Include - DO NOT MODIFY -->
-    {% render 'hextom_usb_coll', product: product %}
-    <!-- **END** Hextom USB Integration // Collection Include - DO NOT MODIFY -->
 </div>
  
