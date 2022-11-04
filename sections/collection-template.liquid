@@ -519,3 +519,20 @@
   ]
 }
 {% endschema %}
+
+<script>
+  var x = document.querySelector(".grid--uniform");
+  var temp = [];
+
+  for (let i = 0; i< x.children.length; i ++) {
+    temp.push(x.children[i]);
+  }
+
+  temp.sort(function(a, b){return 0.5 - Math.random()})
+
+  x.innerHtml = "";
+  temp.forEach(item => {
+    x.append(item)
+  })
+  console.log(temp);
+</script>

@@ -163,3 +163,28 @@
     'sortingHtml': {% render 'boost-pfs-filter-html', layout: 'sortingHtml' %},
   };
 </script>
+  
+<script>
+  let myVar = setInterval(myTimer ,100);
+  function myTimer() {
+    console.log(document.querySelector(".grid--uniform").children.length);
+    if (document.querySelector(".grid--uniform").children.length >60 ){
+      var x = document.querySelector(".grid--uniform");
+      var temp = [];
+    
+      for (let i = 0; i< x.children.length; i ++) {
+        temp.push(x.children[i]);
+      }
+    
+      temp.sort(function(a, b){return 0.5 - Math.random()})
+    
+      x.innerHtml = "";
+      temp.forEach(item => {
+        x.append(item)
+      })
+      console.log(temp);
+      clearInterval(myVar);
+    }
+  }
+  
+</script>
